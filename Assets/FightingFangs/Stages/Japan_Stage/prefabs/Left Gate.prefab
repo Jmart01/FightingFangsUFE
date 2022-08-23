@@ -28,69 +28,82 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 523240068010498198}
+  - {fileID: 6943538565089335801}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &56388920584781693
+--- !u!1001 &7482412971128094226
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 6079219026968044380}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
-      propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
+    - target: {fileID: 919132149155446097, guid: e6c0167e901693745b6b9df5e4803f52,
+        type: 3}
       propertyPath: m_Name
-      value: Temple_gate_left
+      value: lp_torii_gate
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
---- !u!4 &523240068010498198 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: e6c0167e901693745b6b9df5e4803f52, type: 3}
+--- !u!4 &6943538565089335801 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b1d2db31b424ba34eadf5b75329c9826, type: 3}
-  m_PrefabInstance: {fileID: 56388920584781693}
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e6c0167e901693745b6b9df5e4803f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 7482412971128094226}
   m_PrefabAsset: {fileID: 0}
