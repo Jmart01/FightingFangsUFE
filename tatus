@@ -1,0 +1,293 @@
+[33mcommit cb1b24cfd9a6f4a273f10b6aa4d2e6b71900e268[m[33m ([m[1;36mHEAD -> [m[1;32mbluntzerBranch[m[33m, [m[1;31morigin/bluntzerBranch[m[33m)[m
+Author: Bluntzer <bluntzer@student.uiwtx.edu>
+Date:   Tue Aug 23 15:46:22 2022 -0500
+
+    model added - Stage_Banner_Curtain
+
+[33mcommit b4523191c3fbfe2313af03a937dde483548f1754[m
+Author: Bluntzer <bluntzer@student.uiwtx.edu>
+Date:   Tue Aug 23 15:12:44 2022 -0500
+
+    model added - echoClub_Floor; rearranged some furniture
+
+[33mcommit d526d99e11901d664913edb0982938f8b5a9804a[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Tue Aug 23 11:08:23 2022 -0500
+
+    model added - echoClub_Wall_Left; fixed problem with missing faces
+
+[33mcommit 7c6b9f318d58ed284f2133daa98caf843f20127c[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Mon Aug 22 17:43:42 2022 -0500
+
+    model added - echoClub_Wall_Ceiling_Panels
+
+[33mcommit 7c38fbb5089c99c7361c54d670595d74adb23de0[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 20:45:48 2022 -0500
+
+    character added - fixed kuo materials - Kuo_Model
+
+[33mcommit 668c96bad82ce6d572bf645531bc5391cdc60056[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 20:24:25 2022 -0500
+
+    character added - Kuo_Model, had to fix something with the materials applied to him
+
+[33mcommit 1f6fa099bd8364260090e24d4190e46f1f5874e1[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 19:48:46 2022 -0500
+
+    texture added - kuo set 5
+
+[33mcommit 5f415d315a15efab998721814b90bff708743117[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 19:46:52 2022 -0500
+
+    texture added - kuo set 4
+
+[33mcommit 7acd57b0c2f7627d9b629eb49b8314722e300513[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 19:45:43 2022 -0500
+
+    texture added - kuo set 3
+
+[33mcommit f8fe77fd4a5e3c9d08e7ed721c1ee920de42bc26[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 19:44:01 2022 -0500
+
+    texture added - kuo set 2
+
+[33mcommit 256523fd13cf1bb9bb093dc23e0e9aef35b30c99[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 19:42:47 2022 -0500
+
+    texture added - kuo set 1
+
+[33mcommit f018ffecb205d092f4a55c30fee6aeabcaae7dc4[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 19:33:45 2022 -0500
+
+    added character - Kuo_Model
+
+[33mcommit eb34a0f90e34ff59a6f3274d4ba26b785e5b8f79[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:56:23 2022 -0500
+
+    texture added - Trash_Can_textures
+
+[33mcommit 618257b1531683c037043d28189edd0247ecc5ff[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:55:11 2022 -0500
+
+    texture added - Table_Set_textures
+
+[33mcommit 66b23598264bd5130e1386f93c1cac474c2123b0[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:53:52 2022 -0500
+
+    texture added - Stage_Speaker_textures
+
+[33mcommit 4c7030479e6be0520ed0b6c23b41f8378c07bd35[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:52:00 2022 -0500
+
+    texture added - Stage_Set_textures
+
+[33mcommit ebd2677a3506e8f2c92c2072de3dad736297c739[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:50:53 2022 -0500
+
+    texture added - Stage_Ramp_textures
+
+[33mcommit 9141386172ecd0139315d5a913d5a24409bf2f2b[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:49:58 2022 -0500
+
+    texture added - Stage_Mic_textures
+
+[33mcommit 0173015dc106231060a625d89ec349544a0e18b8[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:48:52 2022 -0500
+
+    texture added - Stage_backdrop_lights_textures
+
+[33mcommit 8d590e9daf3ef4bdf32a8927678b63204d34077e[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:47:40 2022 -0500
+
+    texture added - Seat_Sofa_textures
+
+[33mcommit 7fcd0f62f1cda75a430f8debea8de66249c7fc65[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:46:33 2022 -0500
+
+    texture added - Seat_Sofa_Table_textures
+
+[33mcommit b795d5ce08099a6884a14004890247c8f26e730c[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:45:11 2022 -0500
+
+    texture added - Seat_Sofa_Railing_textures
+
+[33mcommit b05a596f527f1c816d6fab236f3eed752795ae9e[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:43:56 2022 -0500
+
+    texture added - Scaffold_textures
+
+[33mcommit 3dc2f544866f9c63dc999fac868d8929d86c718e[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:42:47 2022 -0500
+
+    texture added - Light_fixtures_textures
+
+[33mcommit 3cb8d287d603fcf1f948e7e2bf7eb574d8da1dca[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:41:39 2022 -0500
+
+    texture added - Dance_pole_textures
+
+[33mcommit 41a1ae20bf15a0307ca12abf164c37afa82abb79[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:40:26 2022 -0500
+
+    texture added - Bar_textures
+
+[33mcommit 59168124a930888f59ce1aab282ec08366f2cc4f[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sun Aug 21 00:38:46 2022 -0500
+
+    texture added - AC_unit_textures
+
+[33mcommit 63ef9312e2a1f94b362ba6e0c1cecdd25798ca49[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:22:15 2022 -0500
+
+    model added - echoClub_Wall_Sign_Exit
+
+[33mcommit f32a83b3ca9f2a29bf884a22b50f0476831d8a5f[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:21:10 2022 -0500
+
+    echoClub_Wall_Right
+
+[33mcommit 753e95a054eeb9467f5e2875ce0e90b586135a91[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:20:06 2022 -0500
+
+    model added - echoClub_Wall_Left
+
+[33mcommit b2609ac9ec5a093d0a1bb0eb4a43024319bab8b8[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:18:46 2022 -0500
+
+    model added - echoClub_Wall_Ceiling
+
+[33mcommit f7768f710bc0382f88915729200d9be404ff2c9e[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:17:44 2022 -0500
+
+    model added - echoClub_Trash_Can
+
+[33mcommit d505ef219acf10f915e23354b079e6ef4cafa8b3[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:16:19 2022 -0500
+
+    model added - echoClub_Table_Set
+
+[33mcommit 6a06c06f342afa12874de8d0628512abb5033f19[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:15:03 2022 -0500
+
+    model added - echoClub_Stage_Speaker
+
+[33mcommit 3de497eac7b2bafcdf71806f41c467a686e0f14e[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:13:47 2022 -0500
+
+    model added - echoClub_Stage_Set
+
+[33mcommit 69df2be82ae68e267ae122aa073ffb35fee4dc5e[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:10:57 2022 -0500
+
+    model added - echoClub_Stage_Ramp
+
+[33mcommit b5e6fb34021f51d4c1c5e6c10f88ef0a997059db[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:02:08 2022 -0500
+
+    model added - echoClub_Stage_Mic
+
+[33mcommit 1316a098bf1d2769a653a6720154b86081302d0c[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 23:00:47 2022 -0500
+
+    model added - echoClub_Stage_Banner_Curtain
+
+[33mcommit c26ca128dcce19e61125f166989ff115b102c37b[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:59:14 2022 -0500
+
+    model added - echoClub_Stage_Backdrop_Lights
+
+[33mcommit 5264f5e811325198e5e1b9e26bc3568f5ebaba43[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:57:31 2022 -0500
+
+    model added - echoClub_Seat_Sofa_Table
+
+[33mcommit 9668b19f9a1621ad8d524cbb8c3bffe0632ae798[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:56:05 2022 -0500
+
+    modeled added - echoClub_Seat_Sofa_Railing
+
+[33mcommit 4267bdc3687da3e1f534a37c2340f297f52aa00f[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:53:37 2022 -0500
+
+    model added - echoClub_Seat_Sofa
+
+[33mcommit 9689dd450713f980e27f339a3b716fafcd77c96c[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:52:17 2022 -0500
+
+    model added - echoClub_Scaffold
+
+[33mcommit d44113aca26d566912dd45d62d653a1b8082b907[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:49:35 2022 -0500
+
+    model added - echoClub_LightFixtures
+
+[33mcommit 57d49e11075d6a978b34946cdcedd4ee27d9d60f[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:37:53 2022 -0500
+
+    model added - echoClub_Dance_Pole
+
+[33mcommit a92d381d5dd56e7d6dcec3e105add950519820db[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:36:09 2022 -0500
+
+    model added - echoClub_Bar
+
+[33mcommit c0ebc08c5d96617b7280bef633f90624edcc5370[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:32:45 2022 -0500
+
+    model added - echoClub_AC_Unit
+
+[33mcommit 22b104f6209f265ae975267652a2fe8f5e93cf48[m
+Author: David Bluntzer <djbluntzer1995@gmail.com>
+Date:   Sat Aug 20 22:15:41 2022 -0500
+
+    moved club materials into a materials folder; moved models into a models folder
+
+[33mcommit 93225f24f996febe3f6e5a47c90015aea357525a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Martinez <jamart41@student.uiwtx.edu>
+Date:   Thu Jun 2 13:59:27 2022 -0500
+
+    First commit, hopefully, with UFE
