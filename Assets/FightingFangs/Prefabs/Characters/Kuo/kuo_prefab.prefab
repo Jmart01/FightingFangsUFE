@@ -127,7 +127,7 @@ MonoBehaviour:
         _serializedValue: 0
   - rect:
       serializedVersion: 2
-      x: -0.2
+      x: -0.25
       y: -0.04
       width: 0.53
       height: 0.41
@@ -155,33 +155,33 @@ MonoBehaviour:
     type: 0
     _rect:
       _x:
-        _serializedValue: -858993472
+        _serializedValue: -1073741824
       _y:
         _serializedValue: -171798688
       topRight:
         x:
-          _serializedValue: 1417339136
+          _serializedValue: 1202590720
         y:
           _serializedValue: -171798688
         z:
           _serializedValue: 0
       topLeft:
         x:
-          _serializedValue: -858993472
+          _serializedValue: -1073741824
         y:
           _serializedValue: -171798688
         z:
           _serializedValue: 0
       bottomRight:
         x:
-          _serializedValue: 1417339136
+          _serializedValue: 1202590720
         y:
           _serializedValue: 1589137920
         z:
           _serializedValue: 0
       bottomLeft:
         x:
-          _serializedValue: -858993472
+          _serializedValue: -1073741824
         y:
           _serializedValue: 1589137920
         z:
@@ -191,7 +191,7 @@ MonoBehaviour:
       height:
         _serializedValue: 1760936576
       xMax:
-        _serializedValue: 1417339136
+        _serializedValue: 1202590720
       yMax:
         _serializedValue: 1589137920
     _radius:
@@ -201,6 +201,1020 @@ MonoBehaviour:
         _serializedValue: 0
       y:
         _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: -0.25
+      y: -0.39
+      width: 0.53
+      height: 0.39
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 7255680049786747756}
+    bodyPart: 3
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 1
+    collisionType: 0
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: -1073741824
+      _y:
+        _serializedValue: -1675037184
+      topRight:
+        x:
+          _serializedValue: 1202590720
+        y:
+          _serializedValue: -1675037184
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: -1073741824
+        y:
+          _serializedValue: -1675037184
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 1202590720
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: -1073741824
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 2276332544
+      height:
+        _serializedValue: 1675037184
+      xMax:
+        _serializedValue: 1202590720
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 2147483648
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 9114689584555176349}
+    bodyPart: 4
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 0
+    collisionType: 1
+    type: 0
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 1073741824
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 257698032
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 6810847818274410982}
+    bodyPart: 5
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 0
+    collisionType: 1
+    type: 0
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 1138166272
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 3466008875774481155}
+    bodyPart: 6
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 0
+    collisionType: 1
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 889058240
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 386547072
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 5026771078313430761}
+    bodyPart: 7
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 0
+    collisionType: 1
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 889058240
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 386547072
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: -0.18
+      y: -0.3
+      width: 0.41
+      height: 0.72
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 7306414992119409917}
+    bodyPart: 10
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 1
+    collisionType: 1
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: -773094144
+      _y:
+        _serializedValue: -1288490240
+      topRight:
+        x:
+          _serializedValue: 987842432
+        y:
+          _serializedValue: -1288490240
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: -773094144
+        y:
+          _serializedValue: -1288490240
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 987842432
+        y:
+          _serializedValue: 1803886336
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: -773094144
+        y:
+          _serializedValue: 1803886336
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 1760936576
+      height:
+        _serializedValue: 3092376576
+      xMax:
+        _serializedValue: 987842432
+      yMax:
+        _serializedValue: 1803886336
+    _radius:
+      _serializedValue: 2147483648
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: -0.18
+      y: -0.3
+      width: 0.41
+      height: 0.72
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 6427366552431103841}
+    bodyPart: 11
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 1
+    collisionType: 1
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: -773094144
+      _y:
+        _serializedValue: -1288490240
+      topRight:
+        x:
+          _serializedValue: 987842432
+        y:
+          _serializedValue: -1288490240
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: -773094144
+        y:
+          _serializedValue: -1288490240
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 987842432
+        y:
+          _serializedValue: 1803886336
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: -773094144
+        y:
+          _serializedValue: 1803886336
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 1760936576
+      height:
+        _serializedValue: 3092376576
+      xMax:
+        _serializedValue: 987842432
+      yMax:
+        _serializedValue: 1803886336
+    _radius:
+      _serializedValue: 2147483648
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: -0.16
+      y: -0.61
+      width: 0.4
+      height: 0.75
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 4266208407307116615}
+    bodyPart: 12
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 1
+    collisionType: 1
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: -687194752
+      _y:
+        _serializedValue: -2619930112
+      topRight:
+        x:
+          _serializedValue: 1030792192
+        y:
+          _serializedValue: -2619930112
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: -687194752
+        y:
+          _serializedValue: -2619930112
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 1030792192
+        y:
+          _serializedValue: 601295360
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: -687194752
+        y:
+          _serializedValue: 601295360
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 1717986944
+      height:
+        _serializedValue: 3221225472
+      xMax:
+        _serializedValue: 1030792192
+      yMax:
+        _serializedValue: 601295360
+    _radius:
+      _serializedValue: 2147483648
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: -0.2
+      y: -0.61
+      width: 0.4
+      height: 0.75
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 8317965688387122792}
+    bodyPart: 13
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 1
+    collisionType: 1
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: -858993472
+      _y:
+        _serializedValue: -2619930112
+      topRight:
+        x:
+          _serializedValue: 858993472
+        y:
+          _serializedValue: -2619930112
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: -858993472
+        y:
+          _serializedValue: -2619930112
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 858993472
+        y:
+          _serializedValue: 601295360
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: -858993472
+        y:
+          _serializedValue: 601295360
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 1717986944
+      height:
+        _serializedValue: 3221225472
+      xMax:
+        _serializedValue: 858993472
+      yMax:
+        _serializedValue: 601295360
+    _radius:
+      _serializedValue: 2147483648
+    _offSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 9101722102082416790}
+    bodyPart: 14
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 0
+    collisionType: 1
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 1163936128
+    _offSet:
+      x:
+        _serializedValue: 42949672
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 3885447752160030708}
+    bodyPart: 15
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 0
+    collisionType: 1
+    type: 1
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 1163936128
+    _offSet:
+      x:
+        _serializedValue: 300647712
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 7439372767315193467}
+    bodyPart: 8
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 0
+    collisionType: 2
+    type: 0
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 816043776
+    _offSet:
+      x:
+        _serializedValue: -257698032
+      y:
+        _serializedValue: -429496736
+      z:
+        _serializedValue: 0
+  - rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 4
+      height: 4
+    defaultVisibility: 1
+    followXBounds: 0
+    followYBounds: 0
+    position: {fileID: 5821730791275546106}
+    bodyPart: 9
+    mappedPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    localPosition:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    shape: 0
+    collisionType: 2
+    type: 0
+    _rect:
+      _x:
+        _serializedValue: 0
+      _y:
+        _serializedValue: 0
+      topRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      topLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomRight:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      bottomLeft:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      width:
+        _serializedValue: 0
+      height:
+        _serializedValue: 0
+      xMax:
+        _serializedValue: 0
+      yMax:
+        _serializedValue: 0
+    _radius:
+      _serializedValue: 816043776
+    _offSet:
+      x:
+        _serializedValue: 386547072
+      y:
+        _serializedValue: -515396064
       z:
         _serializedValue: 0
   activeHurtBoxes: []
@@ -393,9 +1407,87 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3264570226870421369}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &3466008875774481155 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2114345356858627194, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3885447752160030708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1776097714920695949, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4266208407307116615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1619757246495778622, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5026771078313430761 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1689772374024926832, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5821730791275546106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9044604762238173827, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6427366552431103841 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -829644743833057256, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6810847818274410982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -879632037771733345, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7255680049786747756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3891303853827490795, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7306414992119409917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4022966904297608316, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7439372767315193467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5364881509157497090, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7440162311745840172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3886939214869060779, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8317965688387122792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2440584954298617583, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9101722102082416790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5981278746003126255, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3264570226870421369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9114689584555176349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5995404572182492900, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
     type: 3}
   m_PrefabInstance: {fileID: 3264570226870421369}
   m_PrefabAsset: {fileID: 0}
