@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7278954771739076702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6266263307098805934}
+  - component: {fileID: 8125355707753053600}
+  m_Layer: 0
+  m_Name: Battle_GUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6266263307098805934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278954771739076702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8125355707753053600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278954771739076702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd0a45b7015c4dd29a0c9cd78ec7d64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasPreview: 1
+  firstSelectableGameObject: {fileID: 0}
+  hasFadeIn: 1
+  hasFadeOut: 1
+  wrapInput: 1
+  inputTexturePlaceHolder: {fileID: 0}
+  inputViewerBuffer: 12
+  muteAnnouncer: 0
+  announcer:
+    announcerName: 
+    round1: {fileID: 0}
+    round2: {fileID: 0}
+    round3: {fileID: 0}
+    otherRounds: {fileID: 0}
+    finalRound: {fileID: 0}
+    fight: {fileID: 0}
+    player1Wins: {fileID: 0}
+    player2Wins: {fileID: 0}
+    perfect: {fileID: 0}
+    firstHit: {fileID: 0}
+    counterHit: {fileID: 0}
+    parry: {fileID: 0}
+    timeOver: {fileID: 0}
+    ko: {fileID: 0}
+    combos: []
+  wonRounds:
+    NotFinishedRounds: {fileID: 0}
+    WonRounds: {fileID: 0}
+    LostRounds: {fileID: 0}
+    VisibleImages: 0
+  player1GUI:
+    name: {fileID: 0}
+    portrait: {fileID: 0}
+    lifeBar: {fileID: 0}
+    gauges: []
+    wonRoundsImages: []
+    alert:
+      text: {fileID: 0}
+      initialPosition: {x: 0, y: 0, z: 0}
+      finalPosition: {x: 0, y: 0, z: 0}
+      movementSpeed: 15
+  player2GUI:
+    name: {fileID: 0}
+    portrait: {fileID: 0}
+    lifeBar: {fileID: 0}
+    gauges: []
+    wonRoundsImages: []
+    alert:
+      text: {fileID: 0}
+      initialPosition: {x: 0, y: 0, z: 0}
+      finalPosition: {x: 0, y: 0, z: 0}
+      movementSpeed: 15
+  mainAlert:
+    text: {fileID: 0}
+    initialPosition: {x: 0, y: 0, z: 0}
+    finalPosition: {x: 0, y: 0, z: 0}
+    movementSpeed: 15
+  info: {fileID: 0}
+  timer: {fileID: 0}
+  lifeDownSpeed: 500
+  lifeUpSpeed: 900
+  pauseScreen: {fileID: 0}
+  networkPlayerPointer: {fileID: 0}
+  pointerTimer: 4
