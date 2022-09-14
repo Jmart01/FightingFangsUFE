@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2088066252851581238}
   - component: {fileID: 8702134533510443535}
+  - component: {fileID: 1646888673478839787}
   m_Layer: 0
   m_Name: kuo_prefab
   m_TagString: Untagged
@@ -1326,6 +1327,26 @@ MonoBehaviour:
   moveSetScript: {fileID: 0}
   previewAllBoxes: 0
   customHitBoxes: {fileID: 0}
+--- !u!95 &1646888673478839787
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172552999710370947}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 9b4a6da3d9af30b488082f321b5f7e8a, type: 3}
+  m_Controller: {fileID: 9100000, guid: 85eca58503f1043499d28ef6a3683ace, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &3264570226870421369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1387,6 +1408,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7908920156901817044, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.031097766
+      objectReference: {fileID: 0}
+    - target: {fileID: -7908920156901817044, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.02169622
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b4a6da3d9af30b488082f321b5f7e8a,
         type: 3}
