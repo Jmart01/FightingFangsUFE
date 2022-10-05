@@ -877,12 +877,13 @@ MonoBehaviour:
   positionPlayer2: {x: 4, y: 0, z: 0}
   characters:
   - {fileID: 847910159387511335}
+  - {fileID: 4408794963031718041}
   hudPlayer1: {fileID: 2559250186192548580}
   hudPlayer2: {fileID: 8206296576801945999}
   hudBothPlayers: {fileID: 8244068955167408653}
   noCharacterSprite: {fileID: 21300000, guid: 49a6f61837fd54bf9956a2cb6aff27fa, type: 3}
   defaultCharacterPlayer1: 0
-  defaultCharacterPlayer2: 999
+  defaultCharacterPlayer2: 1
 --- !u!1 &3522318719647653209
 GameObject:
   m_ObjectHideFlags: 0
