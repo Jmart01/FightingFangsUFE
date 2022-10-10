@@ -864,7 +864,7 @@ MonoBehaviour:
   cancelSound: {fileID: 8300000, guid: 65d72dc359ecc574cbdd1ebe6e6550e5, type: 3}
   moveCursorSound: {fileID: 8300000, guid: e33073cf85d1edf4d992c2f5c6a33c90, type: 3}
   onLoadSound: {fileID: 8300000, guid: 681d218d3074955459d3e17a1a14f85f, type: 3}
-  music: {fileID: 8300000, guid: 86b7e2f1871b3094da24102c8b2231aa, type: 3}
+  music: {fileID: 0}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
   namePlayer1: {fileID: 7815391130760997246}

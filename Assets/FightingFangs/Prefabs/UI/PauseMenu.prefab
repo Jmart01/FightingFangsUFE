@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPreview: 1
-  firstSelectableGameObject: {fileID: 8231790351431879110}
+  firstSelectableGameObject: {fileID: 0}
   hasFadeIn: 1
   hasFadeOut: 1
   wrapInput: 1
