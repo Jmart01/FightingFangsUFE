@@ -1072,6 +1072,7 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 54463d7107eff624bb217cfe899eb62c, type: 3}
   - {fileID: 32900000, guid: 8ff5726351cf69d42ac574fc9fcf1560, type: 3}
   videoPlayer: {fileID: 3153601577703191284}
+  currentPanelIndex: 0
 --- !u!1 &7390496620656286077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,7 +1310,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -1333,7 +1334,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 2560, y: 1440}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3

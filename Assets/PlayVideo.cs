@@ -9,7 +9,7 @@ public class PlayVideo : MonoBehaviour
     [SerializeField] GameObject[] Panels;
     [SerializeField] VideoClip[] clips;
     [SerializeField] VideoPlayer videoPlayer;
-    int currentPanelIndex = 0;
+    public int currentPanelIndex = 0;
     int clipIndex = 0;
     // Start is called before the first frame update
     void Start()
@@ -24,15 +24,27 @@ public class PlayVideo : MonoBehaviour
         {
             Debug.Log("Should change panels");
             Panels[currentPanelIndex].SetActive(false);
-            currentPanelIndex++;
-            if(currentPanelIndex < Panels.Length)
+            
+            if(currentPanelIndex < Panels.Length-1)
             {
+                currentPanelIndex++;
+                
+            }
+            Panels[currentPanelIndex].SetActive(true);
+        }
+        if(Input.GetButtonDown("PrevPanel"))
+        {
+            Panels[currentPanelIndex].SetActive(false);
+            if(currentPanelIndex > 0)
+            {
+                currentPanelIndex--;
                 Panels[currentPanelIndex].SetActive(true);
             }
         }
+        //if(Input.GetButton(""))
         if(Input.GetButtonDown("ShowNextClip"))
         {
-            if(clipIndex < clips.Length)
+            if(clipIndex < clips.Length -1)
             {
                 clipIndex++;
             }
