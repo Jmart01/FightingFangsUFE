@@ -860,10 +860,10 @@ MonoBehaviour:
   hasFadeIn: 1
   hasFadeOut: 1
   wrapInput: 1
-  selectSound: {fileID: 8300000, guid: 51afa2d593bb4db438247ff64dadf46d, type: 3}
-  cancelSound: {fileID: 8300000, guid: 65d72dc359ecc574cbdd1ebe6e6550e5, type: 3}
-  moveCursorSound: {fileID: 8300000, guid: e33073cf85d1edf4d992c2f5c6a33c90, type: 3}
-  onLoadSound: {fileID: 8300000, guid: 681d218d3074955459d3e17a1a14f85f, type: 3}
+  selectSound: {fileID: 0}
+  cancelSound: {fileID: 0}
+  moveCursorSound: {fileID: 0}
+  onLoadSound: {fileID: 0}
   music: {fileID: 0}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
