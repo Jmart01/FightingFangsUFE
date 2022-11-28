@@ -144,13 +144,7 @@ AnimatorController:
   m_PrefabAsset: {fileID: 0}
   m_Name: sword_allAnims_wholebody_Animator
   serializedVersion: 5
-  m_AnimatorParameters:
-  - m_Name: Motion
-    m_Type: 3
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+  m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -250,20 +244,20 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -8481110554004433334}
-    m_Position: {x: -290, y: 110, z: 0}
+    m_Position: {x: -290, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7940133217829757688}
-    m_Position: {x: -40, y: 240, z: 0}
+    m_Position: {x: -30, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3670375595757660593}
-    m_Position: {x: -530, y: 240, z: 0}
+    m_Position: {x: -640, y: 240, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -910, y: 250, z: 0}
-  m_EntryPosition: {x: -300, y: 30, z: 0}
+  m_AnyStatePosition: {x: -870, y: -90, z: 0}
+  m_EntryPosition: {x: -260, y: -50, z: 0}
   m_ExitPosition: {x: 540, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -8481110554004433334}
