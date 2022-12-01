@@ -180,6 +180,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8851825028958369, guid: 39c8a8dba415e37458942aa3b52096ec, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851825028958369, guid: 39c8a8dba415e37458942aa3b52096ec, type: 3}
+      propertyPath: yAngle
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8851825961068917, guid: 39c8a8dba415e37458942aa3b52096ec, type: 3}
       propertyPath: m_Name
       value: Nightclub_FinalPrefab
