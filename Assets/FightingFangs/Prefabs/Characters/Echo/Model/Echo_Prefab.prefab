@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5884512495580027201}
   - component: {fileID: 2226066412028175532}
+  - component: {fileID: 8511544501502170364}
   m_Layer: 0
   m_Name: Echo_Prefab
   m_TagString: Untagged
@@ -1326,6 +1327,26 @@ MonoBehaviour:
   moveSetScript: {fileID: 0}
   previewAllBoxes: 0
   customHitBoxes: {fileID: 0}
+--- !u!95 &8511544501502170364
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966914773657313537}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: e4b9dd2c1ae480c4bb2527627b73653d, type: 3}
+  m_Controller: {fileID: 9100000, guid: 85eca58503f1043499d28ef6a3683ace, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &5030574506387395103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1393,7 +1414,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Echo_Model01
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5866666021909216657, guid: d023ff0da252aa54293205163c81aef6,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: e4b9dd2c1ae480c4bb2527627b73653d, type: 3}
+    - target: {fileID: 5866666021909216657, guid: d023ff0da252aa54293205163c81aef6,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 85eca58503f1043499d28ef6a3683ace, type: 2}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: d023ff0da252aa54293205163c81aef6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d023ff0da252aa54293205163c81aef6, type: 3}
 --- !u!4 &778718577752654740 stripped
 Transform:
