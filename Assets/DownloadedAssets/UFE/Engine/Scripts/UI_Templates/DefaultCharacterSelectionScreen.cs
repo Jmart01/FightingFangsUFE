@@ -158,6 +158,8 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 				new UFEScreenExtensions.ActionCallback(this.TryDeselectCharacter)
 			);
 		}
+		//need to try to check the game mode and then get player 1's story mode and list of opponents.
+		//from there try to hook it up to the story mode rendering script to pass along player 1's info as well as the cpu info
 	}
 
 	public override void SetHoverIndex(int player, int characterIndex){

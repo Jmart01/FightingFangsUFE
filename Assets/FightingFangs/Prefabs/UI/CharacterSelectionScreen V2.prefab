@@ -91,10 +91,6 @@ MonoBehaviour:
   - {fileID: 11400032}
   - {fileID: 11400006}
   - {fileID: 11400010}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   hudPlayer1: {fileID: 9500004}
   hudPlayer2: {fileID: 9500002}
   hudBothPlayers: {fileID: 9500000}
