@@ -11,6 +11,7 @@ public class StoryModeRendering : MonoBehaviour
     [SerializeField] Transform StageTransform;
     [SerializeField] Transform p1Transform;
     [SerializeField] Transform cpuTransform;
+    private StoryModeInfo storyModeInfo = new StoryModeInfo();
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class StoryModeRendering : MonoBehaviour
     void GetPlayerInfo(UFE3D.CharacterInfo p1, UFE3D.CharacterInfo cpu)
     {
         p1Prefab = Instantiate(p1.characterPrefab);
-        cpuPrefab = cpu.characterPrefab;
+        
         stage = Instantiate(UFE.GetStage().prefab, StageTransform);
     }
 }
