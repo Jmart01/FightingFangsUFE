@@ -228,16 +228,14 @@ public class DefaultBattleGUI : BattleGUI{
 			}
 
 			if (UFE.config.gameGUI.hasGauge){
-				print("Has Gauge is on");
                 for (int i = 0; i < this.player1GUI.gauges.Length; i ++)
                 {
-					print(this.player1GUI.gauges[i].name);
+					
                     if (this.player1GUI.gauges[i].gameObject.activeInHierarchy)
                     {
-						print("thing is active in Hierarchy");
+						
 						print(UFE.config.player1Character.normalizeAnimationFrames);
                         this.player1GUI.gauges[i].fillAmount = (float)player1.controlsScript.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
-						print((float)player1.controlsScript.currentGaugesPoints[i]);
                     }
                 }
                 for (int i = 0; i < this.player2GUI.gauges.Length; i++)
@@ -245,7 +243,6 @@ public class DefaultBattleGUI : BattleGUI{
                     if (this.player2GUI.gauges[i].gameObject.activeInHierarchy)
                     {
                         this.player2GUI.gauges[i].fillAmount = (float)player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
-						print((float)player2.controlsScript.currentGaugesPoints[i]);
 					}
                 }
 			}

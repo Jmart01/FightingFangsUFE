@@ -39,7 +39,7 @@ public class EchoAnimsTest : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Alpha5))
         {
-            mAnimator.SetTrigger("Neutrallight");
+            mAnimator.SetTrigger("neutrallight");
         }
         if(Input.GetKeyDown(KeyCode.Alpha6))
         {
