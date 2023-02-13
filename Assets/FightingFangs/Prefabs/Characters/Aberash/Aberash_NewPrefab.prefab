@@ -2167,6 +2167,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: sword
       objectReference: {fileID: 0}
+    - target: {fileID: 5525756117109095441, guid: b099acb3cedf422439e8fe9c90abff94,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2bd5be6ef75d0c4d9513d0d6f145fed, type: 2}
     m_RemovedComponents:
     - {fileID: -5501375493158674459, guid: b099acb3cedf422439e8fe9c90abff94, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b099acb3cedf422439e8fe9c90abff94, type: 3}
