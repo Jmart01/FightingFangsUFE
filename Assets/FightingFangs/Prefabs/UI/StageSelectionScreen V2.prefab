@@ -74,7 +74,7 @@ MonoBehaviour:
   fadeBeforeGoingToLoadingBattleScreen: 0
   moveCursorSound: {fileID: 0}
   onLoadSound: {fileID: 0}
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: 27ce2cdba0e3e134eb7b970dce0d5a06, type: 3}
   namePlayer1: {fileID: 11400030}
   namePlayer2: {fileID: 11400034}
   nameStage: {fileID: 11400028}

@@ -654,7 +654,7 @@ MonoBehaviour:
   hasFadeOut: 1
   wrapInput: 1
   onLoadSound: {fileID: 0}
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: 27ce2cdba0e3e134eb7b970dce0d5a06, type: 3}
   selectSound: {fileID: 0}
   cancelSound: {fileID: 0}
   moveCursorSound: {fileID: 0}

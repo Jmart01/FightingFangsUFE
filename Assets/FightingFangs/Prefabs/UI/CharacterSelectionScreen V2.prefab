@@ -75,7 +75,7 @@ MonoBehaviour:
   cancelSound: {fileID: 0}
   moveCursorSound: {fileID: 0}
   onLoadSound: {fileID: 0}
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: 27ce2cdba0e3e134eb7b970dce0d5a06, type: 3}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
   namePlayer1: {fileID: 11400060}
