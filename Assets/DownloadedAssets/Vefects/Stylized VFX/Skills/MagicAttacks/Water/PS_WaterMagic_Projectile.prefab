@@ -14622,7 +14622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87747a1254ff6804f99e93fa4b1d450b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FX_Hit: {fileID: 0}
+  FX_Hit: {fileID: 3407677716088049748, guid: fc897e54e98aa3d4cbd7785e8814fe27, type: 3}
 --- !u!135 &8154472316981620857
 SphereCollider:
   m_ObjectHideFlags: 0
