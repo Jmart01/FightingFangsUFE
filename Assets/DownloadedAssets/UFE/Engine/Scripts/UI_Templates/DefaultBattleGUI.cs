@@ -234,7 +234,7 @@ public class DefaultBattleGUI : BattleGUI{
                     if (this.player1GUI.gauges[i].gameObject.activeInHierarchy)
                     {
 						
-						print(UFE.config.player1Character.normalizeAnimationFrames);
+						//print(UFE.config.player1Character.normalizeAnimationFrames);
                         this.player1GUI.gauges[i].fillAmount = (float)player1.controlsScript.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
                     }
                 }
