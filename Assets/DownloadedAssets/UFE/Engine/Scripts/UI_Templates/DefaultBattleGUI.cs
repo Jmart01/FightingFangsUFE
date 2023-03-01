@@ -798,7 +798,7 @@ public class DefaultBattleGUI : BattleGUI{
 				}
 			}
 
-            AddViewerInput(activeIconList, player);
+            //AddViewerInput(activeIconList, player);
 		}
 	}
 	#endregion
