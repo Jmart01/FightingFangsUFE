@@ -178,7 +178,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &22400004
 RectTransform:
   m_ObjectHideFlags: 0
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eb1ca98c5975b46158786d3f8cfee2c7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 558d9a03d2e6123479a237eb716ba5bb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1151,7 +1151,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 9ab628747aed13c438e2c937237012f9, type: 3}
+    m_Font: {fileID: 12800000, guid: fe07f579cdd1b8b49af9b379d835b930, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 1
@@ -1231,7 +1231,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 9ab628747aed13c438e2c937237012f9, type: 3}
+    m_Font: {fileID: 12800000, guid: fe07f579cdd1b8b49af9b379d835b930, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 1
@@ -1525,7 +1525,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 9ab628747aed13c438e2c937237012f9, type: 3}
+    m_Font: {fileID: 12800000, guid: fe07f579cdd1b8b49af9b379d835b930, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 1
@@ -1816,7 +1816,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 9ab628747aed13c438e2c937237012f9, type: 3}
+    m_Font: {fileID: 12800000, guid: fe07f579cdd1b8b49af9b379d835b930, type: 3}
     m_FontSize: 120
     m_FontStyle: 0
     m_BestFit: 0
@@ -1975,7 +1975,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 9ab628747aed13c438e2c937237012f9, type: 3}
+    m_Font: {fileID: 12800000, guid: fe07f579cdd1b8b49af9b379d835b930, type: 3}
     m_FontSize: 120
     m_FontStyle: 0
     m_BestFit: 0
