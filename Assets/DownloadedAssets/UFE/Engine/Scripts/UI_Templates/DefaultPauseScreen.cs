@@ -100,8 +100,17 @@ public class DefaultPauseScreen : PauseScreen{
 			}
 		}
 	}
+    public override void GoToMainMenu()
+    {
+        base.GoToMainMenu();
+		if(UFE.IsPlayingMusic())
+		{
+			Debug.Log("Gets Here");
+			UFE.StopMusic();
+		}
+    }
 
-	public override void OnHide (){
+    public override void OnHide (){
 		this.confirmationDialogVisible = false;
 		this.HideBackToMenuConfirmationDialog(false);
 		if (this.currentScreen >= 0 && this.currentScreen < this.screens.Length){

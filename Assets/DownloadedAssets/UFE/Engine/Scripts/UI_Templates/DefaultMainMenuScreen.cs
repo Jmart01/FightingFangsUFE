@@ -38,16 +38,19 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 		);
 	}
 
+
+
 	public override void OnShow (){
 		base.OnShow ();
 		this.HighlightOption(this.FindFirstSelectable());
-
-		if (this.music != null){
+		Debug.Log("On Show is called");
+		UFE.PlayMusic(this.music);
+		/*if (this.music != null){			
 			UFE.DelayLocalAction(delegate(){UFE.PlayMusic(this.music);}, this.delayBeforePlayingMusic);
-		}
+		}*/
 		
 		if (this.stopPreviousSoundEffectsOnLoad){
-			UFE.StopSounds();
+            UFE.StopSounds();
 		}
 		
 		if (this.onLoadSound != null){

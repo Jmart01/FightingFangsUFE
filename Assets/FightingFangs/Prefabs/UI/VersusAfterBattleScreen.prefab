@@ -849,7 +849,7 @@ MonoBehaviour:
   selectSound: {fileID: 0}
   cancelSound: {fileID: 0}
   moveCursorSound: {fileID: 0}
-  stopPreviousSoundEffectsOnLoad: 0
+  stopPreviousSoundEffectsOnLoad: 1
   delayBeforePlayingMusic: 0.1
 --- !u!114 &1568024450696808094
 MonoBehaviour:
