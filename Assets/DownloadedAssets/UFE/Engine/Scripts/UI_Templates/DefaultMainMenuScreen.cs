@@ -35,10 +35,14 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 			this.moveCursorSound,
 			this.selectSound,
 			this.cancelSound
+			
 		);
 	}
 
-
+	public void PVPBtnClicked()
+	{
+		UFE.StartPlayerVersusPlayer();
+	}
 
 	public override void OnShow (){
 		base.OnShow ();

@@ -89,7 +89,7 @@ public class DefaultOptionsScreen : OptionsScreen{
 		if (this.soundSlider != null){
 			this.soundSlider.value = UFE.config.soundfxVolume;
 		}
-		
+		/*
 		int difficultySettingsLength = UFE.config.aiOptions.difficultySettings.Length;
 		AIDifficultySettings difficulty = UFE.GetAIDifficulty();
 		
@@ -112,7 +112,7 @@ public class DefaultOptionsScreen : OptionsScreen{
 			}else{
 				this.aiEngineName.text = "Fuzzy";
 			}
-		}
+		}*/
 		
 		if (this.debugModeToggle != null){
 			this.debugModeToggle.isOn = UFE.config.debugOptions.debugMode;
