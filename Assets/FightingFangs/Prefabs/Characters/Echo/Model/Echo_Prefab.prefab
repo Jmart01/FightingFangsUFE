@@ -7740,6 +7740,7 @@ GameObject:
   - component: {fileID: 5884512495580027201}
   - component: {fileID: 2226066412028175532}
   - component: {fileID: 8511544501502170364}
+  - component: {fileID: 6511194569741348901}
   m_Layer: 0
   m_Name: Echo_Prefab
   m_TagString: Untagged
@@ -9076,6 +9077,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6511194569741348901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966914773657313537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc268e94c29eff40ae5e8c3ffffd8bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyGrp: {fileID: 8209472873219379171}
+  materials:
+  - {fileID: 2100000, guid: a591248f4302e7042bc61e218ace3af5, type: 2}
+  - {fileID: 2100000, guid: acf682ed05b46994cbb243548c89ba0a, type: 2}
+  - {fileID: 2100000, guid: fa41ab2cf5e0b4a40a97af94e62881be, type: 2}
 --- !u!1 &5045848905854326478
 GameObject:
   m_ObjectHideFlags: 0
@@ -13373,7 +13391,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8209472873219379171}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
