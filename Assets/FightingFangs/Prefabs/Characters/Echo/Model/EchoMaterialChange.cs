@@ -10,8 +10,8 @@ public class EchoMaterialChange : MonoBehaviour
     public GameObject bodyGrp;
     public Material[] mats;
     int CurrentMat = 0;
-    Fix64 _originalMoveForwardSpeed;
-    Fix64 _originalMoveBackSpeed;
+    Fix64 _originalMoveForwardSpeed = 7.5;
+    Fix64 _originalMoveBackSpeed = 6.5;
     private void Awake()
     {
         UFE.OnMove += this.OnMove;
@@ -20,15 +20,7 @@ public class EchoMaterialChange : MonoBehaviour
     {
         UFE.OnMove -= this.OnMove;
     }
-    private void Start()
-    {
-        ControlsScript controlscript = GetComponentInParent<ControlsScript>();
-        if (controlscript != null)
-        {
-             _originalMoveForwardSpeed = controlscript.myInfo.physics._moveForwardSpeed;
-            _originalMoveBackSpeed = controlscript.myInfo.physics._moveBackSpeed;
-        }
-    }
+    
 
     private void OnMove(MoveInfo move, ControlsScript player)
     {
@@ -63,19 +55,33 @@ public class EchoMaterialChange : MonoBehaviour
         if(player.currentCombatStance == CombatStances.Stance1)
         {
             //Once the stance changes from stance1 to stance2, lowers the move speed
-            player.myInfo.physics._moveBackSpeed = 4.5;
-            player.myInfo.physics._moveForwardSpeed = 5.5;
+            //player.myInfo.physics._moveBackSpeed = 5.5;
+            //player.myInfo.physics._moveForwardSpeed = 6.5;
+            character.physics._moveBackSpeed = 4.5;
+            character.physics._moveForwardSpeed = 5.5;
+            //Debug.Log(player.myInfo.physics._moveBackSpeed);
+            //Debug.Log(player.myInfo.physics._moveForwardSpeed);
         }
-        Debug.Log("Switched Stances");
+        //Debug.Log("Switched Stances");
         if(player.currentCombatStance == CombatStances.Stance2)
         {
             if(character != null)
             {
-                player.myInfo.physics._moveBackSpeed = 6.5;
-                player.myInfo.physics._moveForwardSpeed = 7.5;
+                player.myInfo.physics._moveBackSpeed = 7;
+                player.myInfo.physics._moveForwardSpeed = 8.5;
+                //Debug.Log(player.myInfo.physics._moveBackSpeed);
+                //Debug.Log(player.myInfo.physics._moveForwardSpeed);
+                Debug.Log("FUCUCBFBDSIFF");
             }
         }
         //need to do the same thing for the third combat stance
+        if(player.currentCombatStance == CombatStances.Stance3)
+        {
+            player.myInfo.physics._moveBackSpeed = _originalMoveBackSpeed;
+            player.myInfo.physics._moveForwardSpeed= _originalMoveForwardSpeed;
+            Debug.Log(player.myInfo.physics._moveBackSpeed);
+            Debug.Log(player.myInfo.physics._moveForwardSpeed);
+        }
 
     }
     
