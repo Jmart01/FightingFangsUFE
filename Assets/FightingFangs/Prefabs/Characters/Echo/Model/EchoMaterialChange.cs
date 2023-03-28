@@ -45,6 +45,11 @@ public class EchoMaterialChange : MonoBehaviour
                     //bodyGrp.GetComponent<SkinnedMeshRenderer>().materials[1] = materials[CurrentMat];
                     Debug.Log(MeshMats[1].name);
                 }
+                if(move.name == "Echo_Down_Heavy")
+                {
+                    Debug.Log("HEAL MEEE");
+                    //player.currentLifePoints = player.currentLifePoints + 25;
+                }
             }
         } 
     }
