@@ -50,6 +50,7 @@ public class EchoMaterialChange : MonoBehaviour
                     Debug.Log("HEAL MEEE");
                     //player.currentLifePoints = player.currentLifePoints + 25;
                 }
+                Debug.Log(move.name);
             }
         } 
     }
