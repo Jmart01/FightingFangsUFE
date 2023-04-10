@@ -15,12 +15,29 @@ public class EchoMaterialChange : MonoBehaviour
     private void Awake()
     {
         UFE.OnMove += this.OnMove;
+        UFE.OnHit += this.OnHit;
+        UFE.OnLifePointsChange += this.LifepointsChange;
     }
+
+    private void LifepointsChange(float newFloat, ControlsScript player)
+    {
+        
+    }
+
     private void OnDisable()
     {
         UFE.OnMove -= this.OnMove;
+        UFE.OnHit -= this.OnHit;
     }
-    
+
+
+    private void OnHit(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
+    {
+        //player will always refer to the person doing the move that hits the other person
+        Debug.Log(player.name);
+        
+        //throw new NotImplementedException();
+    }
 
     private void OnMove(MoveInfo move, ControlsScript player)
     {
@@ -54,6 +71,8 @@ public class EchoMaterialChange : MonoBehaviour
             }
         } 
     }
+
+    
     
     private void CheckStance(ControlsScript player)
     {
