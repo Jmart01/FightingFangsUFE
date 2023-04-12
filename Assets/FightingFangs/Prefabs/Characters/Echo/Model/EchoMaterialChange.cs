@@ -12,17 +12,14 @@ public class EchoMaterialChange : MonoBehaviour
     int CurrentMat = 0;
     Fix64 _originalMoveForwardSpeed = 7.5;
     Fix64 _originalMoveBackSpeed = 6.5;
+    bool _hasShield;
+
     private void Awake()
     {
         UFE.OnMove += this.OnMove;
         UFE.OnHit += this.OnHit;
-        UFE.OnLifePointsChange += this.LifepointsChange;
     }
 
-    private void LifepointsChange(float newFloat, ControlsScript player)
-    {
-        
-    }
 
     private void OnDisable()
     {
@@ -34,8 +31,33 @@ public class EchoMaterialChange : MonoBehaviour
     private void OnHit(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
     {
         //player will always refer to the person doing the move that hits the other person
-        Debug.Log(player.name);
-        
+        if(player != this.GetComponentInParent<ControlsScript>())
+        {
+            Debug.Log(player.name);
+            Debug.Log(move.name);
+            if (player == GetComponentInParent<ControlsScript>() && this._hasShield)
+            {
+                
+                //player.target.
+                /*foreach(var hit in player.currentMove.hits)
+                {
+                    hit._damageOnHit = 0;
+                    hit._damageOnBlock = 0;
+                }
+
+                foreach (var hit in move.hits)
+                {
+                    //Debug.Log(hit._damageOnHit);
+                    //hit._damageOnHit = hit._damageOnHit * .5;
+                    
+                    hit._damageOnHit = 0;
+                    Debug.Log(hit._damageOnHit);
+                    //Debug.Log(hit._damageOnBlock);
+                    hit._damageOnBlock = hit._damageOnBlock * .5;
+                    Debug.Log(hit._damageOnBlock);
+                }*/
+            }
+        }
         //throw new NotImplementedException();
     }
 
@@ -67,6 +89,13 @@ public class EchoMaterialChange : MonoBehaviour
                     Debug.Log("HEAL MEEE");
                     player.currentLifePoints += 50;
                 }
+
+                if(move.name == "Echo_Down_Light")
+                {
+                    _hasShield = true;
+                    StartCoroutine(ShieldDown());
+                    Debug.Log(_hasShield);
+                }
                 //Debug.Log(move.name);
             }
         } 
@@ -96,7 +125,6 @@ public class EchoMaterialChange : MonoBehaviour
                 player.myInfo.physics._moveForwardSpeed = 8.5;
                 //Debug.Log(player.myInfo.physics._moveBackSpeed);
                 //Debug.Log(player.myInfo.physics._moveForwardSpeed);
-                Debug.Log("FUCUCBFBDSIFF");
             }
         }
         //need to do the same thing for the third combat stance
@@ -104,10 +132,17 @@ public class EchoMaterialChange : MonoBehaviour
         {
             player.myInfo.physics._moveBackSpeed = _originalMoveBackSpeed;
             player.myInfo.physics._moveForwardSpeed= _originalMoveForwardSpeed;
-            Debug.Log(player.myInfo.physics._moveBackSpeed);
-            Debug.Log(player.myInfo.physics._moveForwardSpeed);
+            //Debug.Log(player.myInfo.physics._moveBackSpeed);
+            //Debug.Log(player.myInfo.physics._moveForwardSpeed);
         }
 
+    }
+
+    IEnumerator ShieldDown()
+    {
+        yield return new WaitForSeconds(5f);
+        _hasShield = false;
+        Debug.Log(_hasShield);
     }
     
     
