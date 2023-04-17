@@ -31,31 +31,24 @@ public class EchoMaterialChange : MonoBehaviour
     private void OnHit(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
     {
         //player will always refer to the person doing the move that hits the other person
-        if(player != this.GetComponentInParent<ControlsScript>())
+        if(player.target == this.GetComponentInParent<ControlsScript>())
         {
-            Debug.Log(player.name);
+            Debug.Log(player.target.name);
             Debug.Log(move.name);
-            if (player == GetComponentInParent<ControlsScript>() && this._hasShield)
+            if (player.target == GetComponentInParent<ControlsScript>() && this._hasShield)
             {
-                
-                //player.target.
-                /*foreach(var hit in player.currentMove.hits)
+                if(player == UFE.p1ControlsScript)
                 {
-                    hit._damageOnHit = 0;
-                    hit._damageOnBlock = 0;
+                    Debug.Log("Is the p1 script");
+                    UFE.p2ControlsScript.currentLifePoints += 10;
                 }
-
-                foreach (var hit in move.hits)
+                if(player == UFE.p2ControlsScript)
                 {
-                    //Debug.Log(hit._damageOnHit);
-                    //hit._damageOnHit = hit._damageOnHit * .5;
-                    
-                    hit._damageOnHit = 0;
-                    Debug.Log(hit._damageOnHit);
-                    //Debug.Log(hit._damageOnBlock);
-                    hit._damageOnBlock = hit._damageOnBlock * .5;
-                    Debug.Log(hit._damageOnBlock);
-                }*/
+                    Debug.Log("Is p2 script");
+                    UFE.p1ControlsScript.currentLifePoints += 10;
+                }
+                //player.currentLifePoints -= move.hits[0]._damageOnHit / 2;
+
             }
         }
         //throw new NotImplementedException();
@@ -63,6 +56,7 @@ public class EchoMaterialChange : MonoBehaviour
 
     private void OnMove(MoveInfo move, ControlsScript player)
     {
+        //player refers to the person calling the move
         if(player!= null & move != null)
         {
             if(player == this.GetComponentInParent<ControlsScript>())
