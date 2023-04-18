@@ -9,13 +9,16 @@ public class Death : MonoBehaviour
 {
     private ControlsScript playerControls;
     [SerializeField] GameObject DeathModel;
+    [SerializeField] GameObject PlayerModel;
     [SerializeField] MoveInfo deadMove;
 
     private void Awake()
     {
         UFE.OnLifePointsChange += this.OnLifePointsChange;
         UFE.OnHit += this.OnHit;
+        UFE.OnRoundBegins += this.OnRoundBegins;
     }
+
 
     private void OnDisable()
     {
@@ -23,23 +26,56 @@ public class Death : MonoBehaviour
         UFE.OnHit -= this.OnHit;
     }
 
+    private void OnRoundBegins(int newInt)
+    {
+        if(DeathModel.activeInHierarchy == true)
+        {
+            DeathModel.SetActive(false);
+            PlayerModel.SetActive(true);
+        }
+        else
+        {
+            return;
+        }  
+        //throw new NotImplementedException();
+    }
+
     private void OnHit(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
     {
         //need a different solution for when a move has multi hit on it
-        /*if(player.target == this.GetComponentInParent<ControlsScript>() && player.target.currentLifePoints - move.hits[0]._damageOnHit >= 0 || player.target.currentLifePoints - move.projectiles[0]._damageOnHit >= 0)
+        for(int i = 0; i < move.hits.Length -1 ; i++)
         {
-            Debug.Log(player.target);
+            ControlsScript Opponent = player.target;
+            if (Opponent == this.GetComponentInParent<ControlsScript>() && Opponent.currentLifePoints - move.hits[i]._damageOnHit >= 0)
+            {
+                Debug.Log(player.target);
+            }
+            if (Opponent == this.GetComponentInParent<ControlsScript>() && Opponent.currentLifePoints - move.hits[i]._damageOnHit <= 0)
+            {
+                Debug.Log("Should play death anim");
+                Opponent.GetComponentInChildren<Death>().PlayerModel.SetActive(false);
+                DeathModel.SetActive(true);
+                Animator animator = DeathModel.GetComponent<Animator>();
+                
+                animator.SetTrigger("Death");
+                //player.target.CastMove(deadMove, false, true, false);
+            }
         }
-        if(player.target == this.GetComponentInParent<ControlsScript>() && player.target.currentLifePoints - move.hits[0]._damageOnHit <= 0 || player.target.currentLifePoints - move.projectiles[0]._damageOnHit <= 0)
+        for(int i =0;i < move.projectiles.Length; i++)
         {
-            Debug.Log("Should play death anim");
-            player.target.character.SetActive(false);
-            DeathModel.SetActive(true);
-            Animator animator = DeathModel.GetComponent<Animator>();
-            animator.SetBool("Dead", true);
-            //player.target.CastMove(deadMove, false, true, false);
-        }*/
-
+            for(int j = 0; i < move.projectiles[i].totalHits; j++)
+            {
+                if (player.target.currentLifePoints - move.projectiles[i]._damageOnHit >= 0)
+                {
+                    Debug.Log(player.target);
+                }
+                if (player.target.currentLifePoints - move.projectiles[i]._damageOnHit <= 0)
+                {
+                    Debug.Log("Should Play death anim");
+                }
+            }
+            
+        }
         //throw new NotImplementedException();
     }
 

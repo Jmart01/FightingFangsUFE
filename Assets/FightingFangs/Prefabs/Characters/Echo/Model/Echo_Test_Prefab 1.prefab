@@ -13224,6 +13224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeathModel: {fileID: 3672647131335660013}
+  PlayerModel: {fileID: 4224319570005928320}
   deadMove: {fileID: 11400000, guid: 771661247abe90348abd0d93a1a9256d, type: 2}
 --- !u!1 &7412306126278927387
 GameObject:
