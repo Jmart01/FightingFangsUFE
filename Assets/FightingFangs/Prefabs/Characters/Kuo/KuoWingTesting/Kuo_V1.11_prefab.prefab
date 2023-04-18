@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 6501771482126901339}
   - component: {fileID: 6175538937054310647}
   - component: {fileID: 1859149162126513423}
+  - component: {fileID: 3363605166714199436}
   m_Layer: 0
   m_Name: Kuo_V1.11_prefab
   m_TagString: Untagged
@@ -1566,6 +1567,19 @@ MonoBehaviour:
   moveSetScript: {fileID: 0}
   previewAllBoxes: 0
   customHitBoxes: {fileID: 0}
+--- !u!114 &3363605166714199436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5419019961641632559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7024dc1f3c284c418ba37ef30868397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deadMove: {fileID: 11400000, guid: facf35dd440dc3b44b509cd88fad6feb, type: 2}
 --- !u!1 &6726012543255451708
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,1298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2039538461, guid: 290947d1480294243a72173919bf47d1, type: 3}
+  m_Name: FightingFangsGlobalEditor
+  m_EditorClassIdentifier: 
+  version: 0
+  player1Character: {fileID: 0}
+  player2Character: {fileID: 0}
+  player1Team: []
+  player2Team: []
+  selectedStage:
+    stageName: Body Heat
+    stageLoadingMethod: 0
+    stagePath: Assets/FightingFangs/Stages/Nightclub_Stage/Level/Nightclub.unity
+    screenshot: {fileID: 2800000, guid: 1af658d82b3e69b4eaf0dc1c696db3fe, type: 3}
+    prefab: {fileID: 8851825961068917, guid: 39c8a8dba415e37458942aa3b52096ec, type: 3}
+    music: {fileID: 8300000, guid: e7ace672dc5af0f4891fa5749c349295, type: 3}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -42949672960
+    _rightBoundary:
+      _serializedValue: 42949672960
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 85899345920
+  gameName: Fighting Fangs
+  gameplayType: 0
+  selectedLanguage:
+    languageName: English
+    start: Start
+    options: Options
+    credits: Credits
+    selectYourCharacter: Select Your Character
+    selectYourStage: Select Your Stage
+    round: Round %round%
+    finalRound: Final Round
+    fight: Fight!
+    firstHit: First Hit!
+    combo: '%number% hit combo!'
+    parry: Parry!
+    counterHit: Counter!
+    victory: '%character% wins!'
+    challengeBegins: Start!
+    challengeEnds: Success!
+    timeOver: Time Over
+    perfect: Perfect!
+    rematch: Rematch
+    quit: Quit
+    ko: K.O.
+    draw: Draw
+    defaultSelection: 0
+  gameGUI:
+    hasGauge: 1
+    screenFadeDuration:
+      _serializedValue: 2147483648
+    gameFadeDuration:
+      _serializedValue: 4294967296
+    roundFadeDuration:
+      _serializedValue: 2147483648
+    screenFadeColor: {r: 0, g: 0, b: 0, a: 1}
+    gameFadeColor: {r: 1, g: 1, b: 1, a: 1}
+    roundFadeColor: {r: 0, g: 0, b: 0, a: 1}
+    useCanvasScaler: 1
+    canvasScaler:
+      defaultSpriteDPI: 96
+      fallbackScreenDPI: 96
+      matchWidthOrHeight: 1
+      physicalUnit: 3
+      referencePixelsPerUnit: 1
+      referenceResolution: {x: 1920, y: 1080}
+      scaleFactor: 1
+      screenMatchMode: 0
+      scaleMode: 1
+    introScreen: {fileID: 0}
+    mainMenuScreen: {fileID: 172873469871744685, guid: 170d74e069f67af44875286b697563e6,
+      type: 3}
+    optionsScreen: {fileID: 11400056, guid: 60ae9078865f2b64e99a28c48d504f4a, type: 3}
+    creditsScreen: {fileID: 0}
+    pauseScreen: {fileID: 11400000, guid: d9c663b5a95a8fc48bcfca183e541f8c, type: 3}
+    characterSelectionScreen: {fileID: 11400026, guid: 92657fc8619a4514ca919af156410f73,
+      type: 3}
+    teamSelectionScreen: {fileID: 0}
+    stageSelectionScreen: {fileID: 11400008, guid: c07d4d916d3f6d4468a0a70b6c06699e,
+      type: 3}
+    loadingBattleScreen: {fileID: 0}
+    battleGUI: {fileID: 11400032, guid: b8253ff23b650a544908bf3722ee5a8c, type: 3}
+    storyModeContinueScreen: {fileID: 0}
+    storyModeGameOverScreen: {fileID: 0}
+    storyModeCongratulationsScreen: {fileID: 0}
+    versusModeScreen: {fileID: 11400002, guid: 91e56b1449885f643a4609bcf41eacab, type: 3}
+    versusModeAfterBattleScreen: {fileID: 6644555312978805314, guid: ae7df624faf62cf4785aca699a96a425,
+      type: 3}
+    connectionLostScreen: {fileID: 0}
+    replayTools: {fileID: 0}
+    hostGameScreen: {fileID: 0}
+    joinGameScreen: {fileID: 0}
+    networkOptionsScreen: {fileID: 0}
+    roomMatchScreen: {fileID: 0}
+    bluetoothGameScreen: {fileID: 0}
+    bluetoothHostGameScreen: {fileID: 0}
+    bluetoothJoinGameScreen: {fileID: 0}
+    randomMatchScreen: {fileID: 0}
+    searchMatchScreen: {fileID: 0}
+    onlineModeAfterBattleScreen: {fileID: 0}
+  storyMode:
+    useSameStoryForAllCharacters: 0
+    canCharactersFightAgainstThemselves: 0
+    defaultStory:
+      opening: {fileID: 0}
+      ending: {fileID: 0}
+      fightsGroups: []
+      showStoryInEditor: 1
+    selectableCharactersInStoryMode: 00000000010000000200000003000000
+    selectableCharactersInVersusMode: 00000000010000000200000003000000
+    characterStories:
+      _keys: 00000000010000000200000003000000
+      _values:
+      - opening: {fileID: 11400004, guid: 40c65adfe829a4a59bf7fc39d9560079, type: 3}
+        ending: {fileID: 11400004, guid: bb6bf06c538904fd8bce94fe3390c7e4, type: 3}
+        fightsGroups:
+        - maxFights: 4
+          mode: 1
+          name: Random Fights
+          opponents:
+          - conversationBeforeBattle: {fileID: 2171120704758376724, guid: 39d2a90be395fed4c85fb5e8e3da16ac,
+              type: 3}
+            conversationAfterBattle: {fileID: 2171120704758376724, guid: 9b6c7a797df754e40baa53640c729ee9,
+              type: 3}
+            opponentCharacterIndex: 1
+            possibleStagesIndexes: 00000000
+          showOpponentsInEditor: 1
+        showStoryInEditor: 0
+      - opening: {fileID: 11400004, guid: 40c65adfe829a4a59bf7fc39d9560079, type: 3}
+        ending: {fileID: 11400004, guid: bb6bf06c538904fd8bce94fe3390c7e4, type: 3}
+        fightsGroups:
+        - maxFights: 4
+          mode: 1
+          name: Random Fights
+          opponents:
+          - conversationBeforeBattle: {fileID: 2171120704758376724, guid: 188d531817b110a41bb9aa02f87d0778,
+              type: 3}
+            conversationAfterBattle: {fileID: 2171120704758376724, guid: 99154073c3cdd0442b23ffdef06702a3,
+              type: 3}
+            opponentCharacterIndex: 0
+            possibleStagesIndexes: 00000000
+          showOpponentsInEditor: 0
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
+  fps: 60
+  _gameSpeed:
+    _serializedValue: 4294967296
+  executionBufferTime: 20
+  executionBufferType: 0
+  plinkingDelay: 1
+  _preloadingTime:
+    _serializedValue: 4294967296
+  preloadStage: 1
+  preloadHitEffects: 1
+  warmAllShaders: 1
+  _gravity:
+    _serializedValue: 1589137920
+  detect3D_Hits: 0
+  lockZAxis: 1
+  runInBackground: 0
+  useFixedUpdateInputs: 1
+  sortCharacterOnHit: 0
+  foregroundSortLayer: 0
+  backgroundSortLayer: 0
+  languages:
+  - languageName: English
+    start: Start
+    options: Options
+    credits: Credits
+    selectYourCharacter: Select Your Character
+    selectYourStage: Select Your Stage
+    round: Round %round%
+    finalRound: Final Round
+    fight: Fight!
+    firstHit: First Hit!
+    combo: '%number% hit combo!'
+    parry: Parry!
+    counterHit: Counter!
+    victory: '%character% wins!'
+    challengeBegins: Start!
+    challengeEnds: Success!
+    timeOver: Time Over
+    perfect: Perfect!
+    rematch: Rematch
+    quit: Quit
+    ko: K.O.
+    draw: Draw
+    defaultSelection: 0
+  deploymentOptions:
+    deploymentType: 0
+    activeCharacters:
+    - {fileID: 0}
+    - {fileID: 0}
+    AIControlled: 0000
+    selectedTeamMode: 0
+    selectedChallengeMode: 0
+    skipLoadingScreen: 0
+  cameraOptions:
+    initialDistance: {x: 0, y: 1.5, z: -5}
+    initialRotation: {x: -6, y: 0, z: 0}
+    enableLookAt: 0
+    dollyAngle: 0
+    distance3d: 0
+    height3d: 0
+    enableZoom: 1
+    followCharacters: 1
+    initialFieldOfView: 80
+    verticalPriority: 1
+    verticalThreshold: 0
+    movementSpeed: 15
+    minZoom: 4
+    maxZoom: 10
+    _maxDistance:
+      _serializedValue: 60129542144
+    rotationSpeed: 20
+    heightOffSet: 4
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    motionSensor: 1
+    motionSensibility: 1
+  lockOnOptions:
+    lockOnType: 0
+    lockOnButtonEnabled: 0
+    lockOnButton: 0
+    lockOutEnabled: 0
+    lockOutButton: 0
+    targetSwitchType: 0
+    switchButton: 0
+    rotationSpeed:
+      _serializedValue: 0
+  characterRotationOptions:
+    autoMirror: 0
+    rotateWhileJumping: 0
+    rotateOnMoveOnly: 0
+    allowAirBorneSideSwitch: 0
+    fixRotationWhenStunned: 0
+    fixRotationWhenBlocking: 1
+    fixRotationOnHit: 1
+    smoothRotation: 1
+    _rotationSpeed:
+      _serializedValue: 128849018880
+    _mirrorBlending:
+      _serializedValue: 171798688
+  roundOptions:
+    totalRounds: 3
+    hasTimer: 1
+    _timer:
+      _serializedValue: 425201762304
+    _timerSpeed:
+      _serializedValue: 429496729600
+    _p1XPosition:
+      x:
+        _serializedValue: -12884901888
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    _p2XPosition:
+      x:
+        _serializedValue: 12884901888
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    _p1XRotation:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 386547056640
+      z:
+        _serializedValue: 0
+    _p2XRotation:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: -386547056640
+      z:
+        _serializedValue: 0
+    _endGameDelay:
+      _serializedValue: 17179869184
+    _showMenuDelay:
+      _serializedValue: 15032385536
+    _newRoundDelay:
+      _serializedValue: 4294967296
+    _slowMoTimer:
+      _serializedValue: 12884901888
+    _slowMoSpeed:
+      _serializedValue: 858993472
+    victoryMusic: {fileID: 0}
+    resetLifePoints: 1
+    resetPositions: 1
+    allowMovementStart: 0
+    allowMovementEnd: 0
+    playIntrosAtSameTime: 0
+    inhibitGaugeGain: 1
+    rotateBodyKO: 1
+    slowMotionKO: 1
+    cameraZoomKO: 1
+    freezeCamAfterOutro: 1
+  groundBounceOptions:
+    bounceForce: 0
+    bouncePrefab: {fileID: 0}
+    bounceKillTime: 2
+    _minimumBounceForce:
+      _serializedValue: 0
+    _maximumBounces:
+      _serializedValue: 0
+    sticky: 0
+    bounceHitBoxes: 1
+    shakeCamOnBounce: 1
+    _shakeDensity:
+      _serializedValue: 0
+    bounceSound: {fileID: 0}
+  wallBounceOptions:
+    bounceForce: 0
+    bouncePrefab: {fileID: 0}
+    bounceKillTime: 2
+    _minimumBounceForce:
+      _serializedValue: 0
+    _maximumBounces:
+      _serializedValue: 0
+    sticky: 0
+    bounceHitBoxes: 1
+    shakeCamOnBounce: 1
+    _shakeDensity:
+      _serializedValue: 0
+    bounceSound: {fileID: 0}
+  counterHitOptions:
+    startUpFrames: 1
+    activeFrames: 0
+    recoveryFrames: 0
+    _damageIncrease:
+      _serializedValue: 42949672960
+    _hitStunIncrease:
+      _serializedValue: 214748364800
+    sound: {fileID: 0}
+  comboOptions:
+    comboDisplayMode: 0
+    hitStunDeterioration: 0
+    damageDeterioration: 0
+    airJuggleDeterioration: 0
+    _minHitStun: 0
+    _minDamage:
+      _serializedValue: 0
+    _minPushForce:
+      _serializedValue: 0
+    maxConsecutiveCrumple: 1
+    airJuggleDeteriorationType: 0
+    neverAirRecover: 0
+    airRecoveryType: 1
+    resetFallingForceOnHit: 1
+    maxCombo: 99
+    _knockBackMinForce:
+      _serializedValue: 0
+    neverCornerPush: 0
+    fixJuggleWeight: 1
+    _juggleWeight:
+      _serializedValue: 0
+  blockOptions:
+    blockType: 3
+    allowAirBlock: 0
+    ignoreAppliedForceBlock: 0
+    allowMoveCancel: 0
+    blockHitEffects:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496729
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 0
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973888
+      editorToggle: 0
+    parryType: 0
+    _parryTiming:
+      _serializedValue: 0
+    parryStunType: 0
+    parryStunFrames: 10
+    parryColor: {r: 0, g: 0, b: 0, a: 0}
+    allowAirParry: 0
+    highlightWhenParry: 0
+    resetButtonSequence: 0
+    easyParry: 0
+    ignoreAppliedForceParry: 0
+    parryHitEffects:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496729
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 0
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973888
+      editorToggle: 0
+    blockPushForce: 0
+    pushBlockButtons: 
+  knockDownOptions:
+    air:
+      _knockedOutTime:
+        _serializedValue: 8589934592
+      _standUpTime:
+        _serializedValue: 2576980377
+      hideHitBoxesOnFrame: 10
+      hideHitBoxes: 0
+      editorToggle: 0
+      hasQuickStand: 0
+      _predefinedPushForce:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      quickStandButtons: 
+      minQuickStandTime:
+        _serializedValue: 0
+      hasDelayedStand: 0
+      delayedStandButtons: 
+      maxDelayedStandTime:
+        _serializedValue: 0
+    high:
+      _knockedOutTime:
+        _serializedValue: 8589934592
+      _standUpTime:
+        _serializedValue: 2576980377
+      hideHitBoxesOnFrame: 10
+      hideHitBoxes: 0
+      editorToggle: 0
+      hasQuickStand: 0
+      _predefinedPushForce:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      quickStandButtons: 
+      minQuickStandTime:
+        _serializedValue: 0
+      hasDelayedStand: 0
+      delayedStandButtons: 
+      maxDelayedStandTime:
+        _serializedValue: 0
+    highLow:
+      _knockedOutTime:
+        _serializedValue: 8589934592
+      _standUpTime:
+        _serializedValue: 2576980480
+      hideHitBoxesOnFrame: 10
+      hideHitBoxes: 0
+      editorToggle: 0
+      hasQuickStand: 0
+      _predefinedPushForce:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      quickStandButtons: 
+      minQuickStandTime:
+        _serializedValue: 0
+      hasDelayedStand: 0
+      delayedStandButtons: 
+      maxDelayedStandTime:
+        _serializedValue: 0
+    sweep:
+      _knockedOutTime:
+        _serializedValue: 4294967296
+      _standUpTime:
+        _serializedValue: 2576980480
+      hideHitBoxesOnFrame: 10
+      hideHitBoxes: 0
+      editorToggle: 0
+      hasQuickStand: 0
+      _predefinedPushForce:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      quickStandButtons: 
+      minQuickStandTime:
+        _serializedValue: 0
+      hasDelayedStand: 0
+      delayedStandButtons: 
+      maxDelayedStandTime:
+        _serializedValue: 0
+    crumple:
+      _knockedOutTime:
+        _serializedValue: 8589934592
+      _standUpTime:
+        _serializedValue: 2576980377
+      hideHitBoxesOnFrame: 10
+      hideHitBoxes: 0
+      editorToggle: 0
+      hasQuickStand: 0
+      _predefinedPushForce:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      quickStandButtons: 
+      minQuickStandTime:
+        _serializedValue: 0
+      hasDelayedStand: 0
+      delayedStandButtons: 
+      maxDelayedStandTime:
+        _serializedValue: 0
+    wallbounce:
+      _knockedOutTime:
+        _serializedValue: 8589934592
+      _standUpTime:
+        _serializedValue: 2576980377
+      hideHitBoxesOnFrame: 10
+      hideHitBoxes: 0
+      editorToggle: 0
+      hasQuickStand: 0
+      _predefinedPushForce:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      quickStandButtons: 
+      minQuickStandTime:
+        _serializedValue: 0
+      hasDelayedStand: 0
+      delayedStandButtons: 
+      maxDelayedStandTime:
+        _serializedValue: 0
+  hitOptions:
+    resetAnimationOnHit: 1
+    weakHit:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496736
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 0
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973888
+      editorToggle: 0
+    mediumHit:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496736
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 0
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973888
+      editorToggle: 0
+    heavyHit:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496736
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 0
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973888
+      editorToggle: 0
+    crumpleHit:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496736
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 0
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973888
+      editorToggle: 0
+    customHit1:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496736
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 0
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973888
+      editorToggle: 0
+    customHit2:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496729
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 429496729
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
+      editorToggle: 0
+    customHit3:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496729
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 429496729
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
+      editorToggle: 0
+    customHit4:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496729
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 429496729
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
+      editorToggle: 0
+    customHit5:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496729
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 429496729
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
+      editorToggle: 0
+    customHit6:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496729
+      autoHitStop: 1
+      _hitStop:
+        _serializedValue: 429496729
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
+      editorToggle: 0
+  player1_Inputs:
+  - inputType: 0
+    inputButtonName: P1KeyboardHorizontal
+    engineRelatedButton: 1
+    joystickAxisName: P1JoystickHorizontal
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: f029529e09f1c12428dcc1a8c7dcb91c, type: 3}
+    inputViewerIcon2: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
+    inputViewerIcon3: {fileID: 2800000, guid: 917c18f4aaf6f3a41a72d01a8fa79c1a, type: 3}
+    inputViewerIcon4: {fileID: 2800000, guid: a2811adde7913ac46a9b47b6cd73abd7, type: 3}
+    inputViewerIcon5: {fileID: 2800000, guid: 10d86991785f12942b8581c6ed5a0f1f, type: 3}
+    inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
+  - inputType: 1
+    inputButtonName: P1KeyboardVertical
+    engineRelatedButton: 2
+    joystickAxisName: P1JoystickVertical
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 0f803e1627a596e468c46d268cea841a, type: 3}
+    inputViewerIcon2: {fileID: 2800000, guid: 7681f77e08529604096afaded862f563, type: 3}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button1
+    engineRelatedButton: 4
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 44dd7049b4286cb429154691fc16a0ae, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button2
+    engineRelatedButton: 5
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: b645b84b92239ac4e81cad4802c7d032, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button3
+    engineRelatedButton: 6
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 754551564b367f24da34c48590c306df, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button4
+    engineRelatedButton: 7
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: d20d91e4857c2204e850158037155457, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button5
+    engineRelatedButton: 8
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: fa0d984a6d12fda47940eea0201a6431, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button6
+    engineRelatedButton: 0
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: b95421dc6f1a4b74aaf1833fb225074c, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Start
+    engineRelatedButton: 20
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 0}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  player2_Inputs:
+  - inputType: 0
+    inputButtonName: P2KeyboardHorizontal
+    engineRelatedButton: 1
+    joystickAxisName: P2JoystickHorizontal
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: f029529e09f1c12428dcc1a8c7dcb91c, type: 3}
+    inputViewerIcon2: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
+    inputViewerIcon3: {fileID: 2800000, guid: 917c18f4aaf6f3a41a72d01a8fa79c1a, type: 3}
+    inputViewerIcon4: {fileID: 2800000, guid: a2811adde7913ac46a9b47b6cd73abd7, type: 3}
+    inputViewerIcon5: {fileID: 2800000, guid: 10d86991785f12942b8581c6ed5a0f1f, type: 3}
+    inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
+  - inputType: 1
+    inputButtonName: P2KeyboardVertical
+    engineRelatedButton: 3
+    joystickAxisName: P2JoystickVertical
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 0f803e1627a596e468c46d268cea841a, type: 3}
+    inputViewerIcon2: {fileID: 2800000, guid: 7681f77e08529604096afaded862f563, type: 3}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button1
+    engineRelatedButton: 4
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 44dd7049b4286cb429154691fc16a0ae, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button2
+    engineRelatedButton: 5
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: b645b84b92239ac4e81cad4802c7d032, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button3
+    engineRelatedButton: 6
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 754551564b367f24da34c48590c306df, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button4
+    engineRelatedButton: 7
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: d20d91e4857c2204e850158037155457, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button5
+    engineRelatedButton: 8
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: fa0d984a6d12fda47940eea0201a6431, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button6
+    engineRelatedButton: 9
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: b95421dc6f1a4b74aaf1833fb225074c, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Start
+    engineRelatedButton: 20
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 0}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  inputOptions:
+    inputManagerType: 0
+    cInputAllowDuplicates: 0
+    cInputGravity: 3
+    cInputSensitivity: 3
+    cInputDeadZone: 0.001
+    cInputSkin: {fileID: 0}
+    controlFreakPrefab: {fileID: 0}
+    controlFreak2Prefab: {fileID: 0}
+    controlFreakDeadZone: 0.5
+    forceDigitalInput: 1
+    confirmButton: 4
+    cancelButton: 7
+  stages:
+  - stageName: Body Heat
+    stageLoadingMethod: 0
+    stagePath: Assets/FightingFangs/Stages/Nightclub_Stage/Level/Nightclub.unity
+    screenshot: {fileID: 2800000, guid: 1af658d82b3e69b4eaf0dc1c696db3fe, type: 3}
+    prefab: {fileID: 8851825961068917, guid: 39c8a8dba415e37458942aa3b52096ec, type: 3}
+    music: {fileID: 8300000, guid: e7ace672dc5af0f4891fa5749c349295, type: 3}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -42949672960
+    _rightBoundary:
+      _serializedValue: 42949672960
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 85899345920
+  - stageName: Ruined Temple
+    stageLoadingMethod: 0
+    stagePath: Assets/FightingFangs/Stages/Japan_Stage/level/New Japanese Level.unity
+    screenshot: {fileID: 2800000, guid: 8520d0b3f9e80994093a9c272757fd7c, type: 3}
+    prefab: {fileID: 4993177433721669712, guid: b5406bd6a0655ce4b845c17fde24ea03,
+      type: 3}
+    music: {fileID: 8300000, guid: 3e37d1374797a854d84ed39ca8016381, type: 3}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -34359738368
+    _rightBoundary:
+      _serializedValue: 34359738368
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 85899345920
+  characters:
+  - {fileID: 11400000, guid: fe3c2e4f58d205e4cb1abd8f9badcc7a, type: 2}
+  - {fileID: 11400000, guid: d4106e56b404832429c46e3e7a62b156, type: 2}
+  - {fileID: 11400000, guid: bbc6cb83f829c244ab2b2de41f9f6284, type: 2}
+  - {fileID: 11400000, guid: b1de8aa75832b4040a2a16cd90284f06, type: 2}
+  teamModes: []
+  debugOptions:
+    debugMode: 1
+    emulateNetwork: 0
+    trainingModeDebugger: 0
+    preloadedObjects: 1
+    inputsToggle: 0
+    networkToggle: 0
+    recordToggle: 0
+    hitboxColorsToggle: 0
+    connectionLog: 1
+    ping: 1
+    frameDelay: 1
+    currentLocalFrame: 1
+    currentNetworkFrame: 1
+    rollbackLog: 0
+    stateTrackerTest: 0
+    recordMatchTools: 0
+    playbackPhysics: 0
+    displayInputsNetwork: 0
+    displayInputsVersus: 1
+    displayInputsTraining: 0
+    displayInputsStoryMode: 0
+    displayInputsChallengeMode: 0
+    p1DebugInfo:
+      toggle: 0
+      currentMove: 1
+      position: 1
+      lifePoints: 1
+      gaugePoints: 1
+      currentState: 0
+      currentSubState: 0
+      stunTime: 1
+      comboHits: 1
+      comboDamage: 1
+      inputs: 1
+      buttonSequence: 0
+      aiWeightList: 0
+    p2DebugInfo:
+      toggle: 0
+      currentMove: 1
+      position: 1
+      lifePoints: 1
+      gaugePoints: 1
+      currentState: 0
+      currentSubState: 0
+      stunTime: 1
+      comboHits: 1
+      comboDamage: 1
+      inputs: 1
+      buttonSequence: 0
+      aiWeightList: 0
+  trainingModeOptions:
+    freezeTime: 0
+    p1StartingLife: 100
+    p2StartingLife: 100
+    p1StartingGauge: 0
+    p2StartingGauge: 0
+    p1Life: 0
+    p1Gauge: 0
+    p2Life: 0
+    p2Gauge: 0
+    refillTime: 3
+  challengeModeOptions: []
+  aiOptions:
+    engine: 0
+    attackWhenEnemyIsDown: 0
+    moveWhenEnemyIsDown: 0
+    inputFrequency: 0.3
+    behaviourToggle: 0
+    distanceBehaviour: []
+    multiCoreSupport: 1
+    persistentBehavior: 0
+    difficultyToggle: 0
+    difficultySettings: []
+    selectedDifficultyLevel: 2
+    selectedDifficulty:
+      difficultyLevel: 0
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.5
+      overrideRuleCompliance: 0
+      ruleCompliance: 0.9
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
+      startupBehavior: 0
+  networkOptions:
+    forceAnimationControl: 0
+    disableRootMotion: 0
+    disableBlending: 0
+    disableRotationBlend: 0
+    applyFrameDelayOffline: 0
+    recordingBuffer: 0
+    port: 1337
+    floatDesynchronizationThreshold: 0.5
+    logSyncMsg: 0
+    postRollbackRecording: 0
+    generateVariableLog: 0
+    textFilePath: 
+    networkService: 0
+    authKey: 
+    lobbies:
+    - lobbyName: 
+      matchMakingType: 0
+      gameMode: 0
+      allowPrivateRooms: 0
+      matchMakingToggle: 0
+      winnerToggle: 0
+      loserToggle: 0
+      matchMakingUserData: []
+      winnerUserData: []
+      loserUserData: []
+    photonHostingService: 0
+    playFabTitleId: 
+    photonApplicationId: 
+    lanDiscoveryPort: 1338
+    lanDiscoveryBroadcastInterval: 1
+    lanDiscoverySearchInterval: 5
+    lanDiscoverySearchTimeout: 120
+    allowRollBacks: 0
+    rollbackBalancing: 1
+    frameDelayType: 2
+    minFrameDelay: 4
+    maxFrameDelay: 30
+    defaultFrameDelay: 6
+    maxBufferSize: 30
+    maxFastForwards: 10
+    spawnBuffer: 30
+    ufeTrackers: 0
+    networkMessageSize: 2
+    onlySendInputChanges: 1
+    inputMessageFrequency: 0
+    synchronizationMessageFrequency: 0
+    synchronizationAction: 1
+  music: 1
+  musicVolume: 1
+  soundfx: 1
+  soundfxVolume: 1
+  colorStateOne: {r: 1, g: 0, b: 0, a: 1}
+  colorIsHit: {r: 1, g: 0, b: 1, a: 1}
+  colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  colorNoCollider: {r: 1, g: 1, b: 1, a: 1}
+  colorThrowCollider: {r: 1, g: 0, b: 0.5, a: 1}
+  colorPhysicalInvincibleCollider: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  colorProjectileInvincibleCollider: {r: 0, g: 1, b: 1, a: 1}
+  colorHitCollider: {r: 0, g: 1, b: 0, a: 1}
+  colorLowHitBoxType: {r: 1, g: 0, b: 0, a: 1}
+  colorHighHitBoxType: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  colorCollisionBox: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  colorHurtBoxThrow: {r: 1, g: 0.5, b: 0, a: 1}
+  colorHurtBoxNotThrow: {r: 0, g: 1, b: 1, a: 1}
+  colorBlockBox: {r: 0, g: 0, b: 1, a: 1}
+  colorStateOneFill: 0
+  colorIsHitFill: 0
+  colorBodyColliderFill: 0
+  colorNoColliderFill: 0
+  colorThrowColliderFill: 0
+  colorPhysicalInvincibleColliderFill: 0
+  colorProjectileInvincibleColliderFill: 0
+  colorHitColliderFill: 0
+  colorLowHitBoxTypeFill: 0
+  colorHighHitBoxTypeFill: 0
+  colorCollisionBoxFill: 0
+  colorHurtBoxThrowFill: 0
+  colorHurtBoxNotThrowFill: 0
+  colorBlockBoxFill: 0

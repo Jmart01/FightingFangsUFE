@@ -33,8 +33,8 @@ public class EchoMaterialChange : MonoBehaviour
         //player will always refer to the person doing the move that hits the other person
         if(player.target == this.GetComponentInParent<ControlsScript>())
         {
-            Debug.Log(player.target.name);
-            Debug.Log(move.name);
+            //Debug.Log(player.target.name);
+            //Debug.Log(move.name);
             if (player.target == GetComponentInParent<ControlsScript>() && this._hasShield)
             {
                 if(player == UFE.p1ControlsScript)
@@ -48,7 +48,6 @@ public class EchoMaterialChange : MonoBehaviour
                     UFE.p1ControlsScript.currentLifePoints += 10;
                 }
                 //player.currentLifePoints -= move.hits[0]._damageOnHit / 2;
-
             }
         }
         //throw new NotImplementedException();
