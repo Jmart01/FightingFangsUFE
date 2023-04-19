@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using UFE3D;
+using UnityEngine.Video;
+
 
 public class DefaultMainMenuScreen : MainMenuScreen{
 	#region public instance fields
@@ -18,8 +20,25 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 	public Button buttonBluetooth;
 	#endregion
 
-	#region public override methods
-	public override void DoFixedUpdate(
+	[SerializeField]VideoPlayer video;
+	VideoInt vid;
+
+    private void Awake()
+    {
+		video.loopPointReached += LoopPointReached;
+    }
+
+
+    private void LoopPointReached(VideoPlayer source)
+    {
+		//Find
+        //throw new NotImplementedException();
+		video.gameObject.SetActive(false);
+		vid.SetamtToPlay();
+    }
+
+    #region public override methods
+    public override void DoFixedUpdate(
 		IDictionary<InputReferences, InputEvents> player1PreviousInputs,
 		IDictionary<InputReferences, InputEvents> player1CurrentInputs,
 		IDictionary<InputReferences, InputEvents> player2PreviousInputs,
@@ -44,30 +63,49 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 		UFE.StartPlayerVersusPlayer();
 	}
 
-	public override void OnShow (){
+    private void Start()
+    {
+		vid = FindObjectOfType<VideoInt>();
+		if(vid.GetamtToPlay() == 0)
+		{
+			video.gameObject.SetActive(true);
+			Debug.Log("Should play video");
+			video.Play();
+		}
+    }
+
+    public override void OnShow (){
 		base.OnShow ();
 		this.HighlightOption(this.FindFirstSelectable());
 		Debug.Log("On Show is called");
-		UFE.PlayMusic(this.music);
-		/*if (this.music != null){			
-			UFE.DelayLocalAction(delegate(){UFE.PlayMusic(this.music);}, this.delayBeforePlayingMusic);
-		}*/
-		
-		if (this.stopPreviousSoundEffectsOnLoad){
-            UFE.StopSounds();
-		}
-		
-		if (this.onLoadSound != null){
-			UFE.DelayLocalAction(delegate(){UFE.PlaySound(this.onLoadSound);}, this.delayBeforePlayingMusic);
-		}
+		if(video.isPlaying == false)
+		{
+            UFE.PlayMusic(this.music);
+            /*if (this.music != null){			
+                UFE.DelayLocalAction(delegate(){UFE.PlayMusic(this.music);}, this.delayBeforePlayingMusic);
+            }*/
 
-		if (buttonNetwork != null) {
-			buttonNetwork.interactable = UFE.isNetworkAddonInstalled || UFE.isBluetoothAddonInstalled;
-		}
+            if (this.stopPreviousSoundEffectsOnLoad)
+            {
+                UFE.StopSounds();
+            }
 
-		if (buttonBluetooth != null){
-            buttonBluetooth.interactable = UFE.isBluetoothAddonInstalled;
+            if (this.onLoadSound != null)
+            {
+                UFE.DelayLocalAction(delegate () { UFE.PlaySound(this.onLoadSound); }, this.delayBeforePlayingMusic);
+            }
+
+            if (buttonNetwork != null)
+            {
+                buttonNetwork.interactable = UFE.isNetworkAddonInstalled || UFE.isBluetoothAddonInstalled;
+            }
+
+            if (buttonBluetooth != null)
+            {
+                buttonBluetooth.interactable = UFE.isBluetoothAddonInstalled;
+            }
         }
+		
 	}
 	#endregion
 }
