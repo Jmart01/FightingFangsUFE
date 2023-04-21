@@ -18,8 +18,19 @@ public class EchoMaterialChange : MonoBehaviour
     {
         UFE.OnMove += this.OnMove;
         UFE.OnHit += this.OnHit;
+        UFE.OnRoundBegins += this.OnRoundBegins;
     }
 
+    private void OnRoundBegins(int newInt)
+    {
+        ControlsScript player = this.GetComponentInParent<ControlsScript>();
+        Debug.Log(player.currentCombatStance);
+        if(CurrentMat != 0)
+        {
+            CurrentMat = 0;
+        }
+        //throw new NotImplementedException();
+    }
 
     private void OnDisable()
     {
