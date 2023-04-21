@@ -21,22 +21,32 @@ public class EchoMaterialChange : MonoBehaviour
         UFE.OnRoundBegins += this.OnRoundBegins;
     }
 
-    private void OnRoundBegins(int newInt)
-    {
-        ControlsScript player = this.GetComponentInParent<ControlsScript>();
-        Debug.Log(player.currentCombatStance);
-        if(CurrentMat != 0)
-        {
-            CurrentMat = 0;
-        }
-        //throw new NotImplementedException();
-    }
-
     private void OnDisable()
     {
         UFE.OnMove -= this.OnMove;
         UFE.OnHit -= this.OnHit;
+        UFE.OnRoundBegins -= this.OnRoundBegins;
     }
+
+    private void OnRoundBegins(int newInt)
+    {
+        ControlsScript player = this.GetComponentInParent<ControlsScript>();
+        //Debug.Log(player.currentCombatStance);
+        if(player.currentCombatStance != CombatStances.Stance1)
+        {
+            player.currentCombatStance = CombatStances.Stance1;
+            CheckStance(player);
+        }
+        if(CurrentMat != 0)
+        {
+            //Debug.Log(CurrentMat);
+            CurrentMat = 2;
+            ChangeMats();
+        }
+        //throw new NotImplementedException();
+    }
+
+    
 
 
     private void OnHit(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
@@ -50,12 +60,12 @@ public class EchoMaterialChange : MonoBehaviour
             {
                 if(player == UFE.p1ControlsScript)
                 {
-                    Debug.Log("Is the p1 script");
+                    //Debug.Log("Is the p1 script");
                     UFE.p2ControlsScript.currentLifePoints += 10;
                 }
                 if(player == UFE.p2ControlsScript)
                 {
-                    Debug.Log("Is p2 script");
+                    //Debug.Log("Is p2 script");
                     UFE.p1ControlsScript.currentLifePoints += 10;
                 }
                 //player.currentLifePoints -= move.hits[0]._damageOnHit / 2;
@@ -75,18 +85,7 @@ public class EchoMaterialChange : MonoBehaviour
                 if(move.name == "Echo_Down_Special")
                 {
                     CheckStance(player);
-                    
-                    SkinnedMeshRenderer renderer = bodyGrp.GetComponent<SkinnedMeshRenderer>();
-                    Material[] MeshMats = renderer.materials;
-                    CurrentMat++;
-                    if (CurrentMat > 2)
-                    {
-                        CurrentMat = 0;
-                    }
-                    MeshMats[1] = mats[CurrentMat];
-                    renderer.materials = MeshMats;
-                    //bodyGrp.GetComponent<SkinnedMeshRenderer>().materials[1] = materials[CurrentMat];
-                    Debug.Log(MeshMats[1].name);
+                    ChangeMats();
                 }
                 if(move.name == "Echo_DownHeavy" && player.currentLifePoints < 900)
                 {
@@ -98,13 +97,24 @@ public class EchoMaterialChange : MonoBehaviour
                 {
                     _hasShield = true;
                     StartCoroutine(ShieldDown());
-                    Debug.Log(_hasShield);
+                    //Debug.Log(_hasShield);
                 }
                 //Debug.Log(move.name);
             }
         } 
     }
-
+    void ChangeMats()
+    {
+        SkinnedMeshRenderer renderer = bodyGrp.GetComponent<SkinnedMeshRenderer>();
+        Material[] MeshMats = renderer.materials;
+        CurrentMat++;
+        if (CurrentMat > 2)
+        {
+            CurrentMat = 0;
+        }
+        MeshMats[1] = mats[CurrentMat];
+        renderer.materials = MeshMats;
+    }
     
     
     private void CheckStance(ControlsScript player)
@@ -146,7 +156,7 @@ public class EchoMaterialChange : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         _hasShield = false;
-        Debug.Log(_hasShield);
+        //Debug.Log(_hasShield);
     }
     
     
