@@ -15,6 +15,7 @@ public class Death : MonoBehaviour
     {
         UFE.OnLifePointsChange += this.OnLifePointsChange;
         UFE.OnRoundBegins += this.OnRoundBegins;
+        UFE.OnHit += this.OnHit;
     }
 
 
@@ -22,6 +23,16 @@ public class Death : MonoBehaviour
     {
         UFE.OnLifePointsChange -= this.OnLifePointsChange;  
         UFE.OnRoundBegins -= this.OnRoundBegins;
+    }
+    
+    private void OnHit(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
+    {
+        if (move.hits[0].hitType == HitType.Sweep)
+        {
+            //put logic for the sweeping stand up animations here
+            return;
+        }
+        //throw new NotImplementedException();
     }
 
     private void OnRoundBegins(int newInt)
