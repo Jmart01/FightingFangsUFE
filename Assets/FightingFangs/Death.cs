@@ -14,13 +14,11 @@ public class Death : MonoBehaviour
     [SerializeField] GameObject PlayerModel;
 
     private Death Opponentdeath;
-    //gameObject.GetComponentInParent<ControlsScript>().target.GetComponentInChildren<Death>();
 
     private void Awake()
     {
         UFE.OnLifePointsChange += this.OnLifePointsChange;
         UFE.OnRoundBegins += this.OnRoundBegins;
-        //UFE.OnHit += this.OnHit;
     }
 
 
@@ -36,23 +34,6 @@ public class Death : MonoBehaviour
         playerControls = this.GetComponentInParent<ControlsScript>();
         opponentAnimator = Opponentdeath.DeathModel.GetComponent<Animator>();
     }
-
-    /*private void OnHit(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
-    {
-        if (move.hits[0].hitType == HitType.Sweep)
-        {
-            //put logic for the sweeping stand up animations here
-            
-        }
-        //throw new NotImplementedException();
-    }
-
-    IEnumerator PlayStandUp(ControlsScript player)
-    {
-
-
-        yield return new WaitForEndOfFrame();
-    }*/
 
     void PlayStandUp()
     {
@@ -99,8 +80,6 @@ public class Death : MonoBehaviour
                 //Animator animator = Opponentdeath.DeathModel.GetComponent<Animator>();
                 opponentAnimator.SetTrigger("Death");
             }
-            
-            //player.target.CastMove(deadMove, false, true, false);
         }
     }
 }

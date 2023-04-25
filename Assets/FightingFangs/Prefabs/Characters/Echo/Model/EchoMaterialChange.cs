@@ -13,6 +13,7 @@ public class EchoMaterialChange : MonoBehaviour
     Fix64 _originalMoveForwardSpeed = 7.5;
     Fix64 _originalMoveBackSpeed = 6.5;
     bool _hasShield;
+    [SerializeField] GameObject DeathMesh;
 
     private void Awake()
     {
@@ -31,7 +32,6 @@ public class EchoMaterialChange : MonoBehaviour
     private void OnRoundBegins(int newInt)
     {
         ControlsScript player = this.GetComponentInParent<ControlsScript>();
-        //Debug.Log(player.currentCombatStance);
         if(player.currentCombatStance != CombatStances.Stance1)
         {
             player.currentCombatStance = CombatStances.Stance1;
@@ -39,7 +39,6 @@ public class EchoMaterialChange : MonoBehaviour
         }
         if(CurrentMat != 0)
         {
-            //Debug.Log(CurrentMat);
             CurrentMat = 2;
             ChangeMats();
         }
@@ -54,21 +53,16 @@ public class EchoMaterialChange : MonoBehaviour
         //player will always refer to the person doing the move that hits the other person
         if(player.target == this.GetComponentInParent<ControlsScript>())
         {
-            //Debug.Log(player.target.name);
-            //Debug.Log(move.name);
             if (player.target == GetComponentInParent<ControlsScript>() && this._hasShield)
             {
                 if(player == UFE.p1ControlsScript)
                 {
-                    //Debug.Log("Is the p1 script");
                     UFE.p2ControlsScript.currentLifePoints += 10;
                 }
                 if(player == UFE.p2ControlsScript)
                 {
-                    //Debug.Log("Is p2 script");
                     UFE.p1ControlsScript.currentLifePoints += 10;
                 }
-                //player.currentLifePoints -= move.hits[0]._damageOnHit / 2;
             }
         }
         //throw new NotImplementedException();
@@ -81,7 +75,6 @@ public class EchoMaterialChange : MonoBehaviour
         {
             if(player == this.GetComponentInParent<ControlsScript>())
             {
-                //Debug.Log(move.name + player.name);
                 if(move.name == "Echo_Down_Special")
                 {
                     CheckStance(player);
@@ -93,11 +86,10 @@ public class EchoMaterialChange : MonoBehaviour
                     player.currentLifePoints += 50;
                 }
 
-                if(move.name == "Echo_Down_Light")
+                if(move.name == "Echo_Down_Light" && _hasShield != true)
                 {
                     _hasShield = true;
                     StartCoroutine(ShieldDown());
-                    //Debug.Log(_hasShield);
                 }
                 //Debug.Log(move.name);
             }
@@ -106,14 +98,19 @@ public class EchoMaterialChange : MonoBehaviour
     void ChangeMats()
     {
         SkinnedMeshRenderer renderer = bodyGrp.GetComponent<SkinnedMeshRenderer>();
+        SkinnedMeshRenderer deathMeshRenderer = DeathMesh.GetComponent<SkinnedMeshRenderer>();
         Material[] MeshMats = renderer.materials;
+        Material[] deathMats = deathMeshRenderer.materials;
         CurrentMat++;
         if (CurrentMat > 2)
         {
             CurrentMat = 0;
         }
         MeshMats[1] = mats[CurrentMat];
+        deathMats[1] = mats[CurrentMat];
         renderer.materials = MeshMats;
+        deathMeshRenderer.materials = deathMats;
+
     }
     
     
@@ -123,12 +120,9 @@ public class EchoMaterialChange : MonoBehaviour
         if(player.currentCombatStance == CombatStances.Stance1)
         {
             //Once the stance changes from stance1 to stance2, lowers the move speed
-            //player.myInfo.physics._moveBackSpeed = 5.5;
-            //player.myInfo.physics._moveForwardSpeed = 6.5;
+
             character.physics._moveBackSpeed = 4.5;
             character.physics._moveForwardSpeed = 5.5;
-            //Debug.Log(player.myInfo.physics._moveBackSpeed);
-            //Debug.Log(player.myInfo.physics._moveForwardSpeed);
         }
         //Debug.Log("Switched Stances");
         if(player.currentCombatStance == CombatStances.Stance2)
@@ -137,8 +131,6 @@ public class EchoMaterialChange : MonoBehaviour
             {
                 player.myInfo.physics._moveBackSpeed = 7;
                 player.myInfo.physics._moveForwardSpeed = 8.5;
-                //Debug.Log(player.myInfo.physics._moveBackSpeed);
-                //Debug.Log(player.myInfo.physics._moveForwardSpeed);
             }
         }
         //need to do the same thing for the third combat stance
@@ -146,8 +138,6 @@ public class EchoMaterialChange : MonoBehaviour
         {
             player.myInfo.physics._moveBackSpeed = _originalMoveBackSpeed;
             player.myInfo.physics._moveForwardSpeed= _originalMoveForwardSpeed;
-            //Debug.Log(player.myInfo.physics._moveBackSpeed);
-            //Debug.Log(player.myInfo.physics._moveForwardSpeed);
         }
 
     }
@@ -156,7 +146,6 @@ public class EchoMaterialChange : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         _hasShield = false;
-        //Debug.Log(_hasShield);
     }
     
     

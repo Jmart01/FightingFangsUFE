@@ -11780,7 +11780,7 @@ GameObject:
   - component: {fileID: 8228421453185419168}
   - component: {fileID: -6907072083941207413}
   m_Layer: 0
-  m_Name: Echo_Test_Prefab 1
+  m_Name: Echo_Test_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13211,6 +13211,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: a591248f4302e7042bc61e218ace3af5, type: 2}
   - {fileID: 2100000, guid: acf682ed05b46994cbb243548c89ba0a, type: 2}
   - {fileID: 2100000, guid: fa41ab2cf5e0b4a40a97af94e62881be, type: 2}
+  DeathMesh: {fileID: 7229214613565051068}
 --- !u!114 &-6907072083941207413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13225,7 +13226,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DeathModel: {fileID: 3672647131335660013}
   PlayerModel: {fileID: 4224319570005928320}
-  deadMove: {fileID: 11400000, guid: 771661247abe90348abd0d93a1a9256d, type: 2}
 --- !u!1 &7412306126278927387
 GameObject:
   m_ObjectHideFlags: 0
@@ -15330,6 +15330,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2709512580278764544, guid: 10c7bf9639e386f4485cfe0a68c4a218,
+        type: 3}
+      propertyPath: m_Name
+      value: body_lp_death
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 10c7bf9639e386f4485cfe0a68c4a218,
         type: 3}
       propertyPath: m_Name
@@ -15368,9 +15373,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8044950946642466398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3672647131335660013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54906606e32e7df49b81af7ddb6bab5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4160215235852946263 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 10c7bf9639e386f4485cfe0a68c4a218,
+    type: 3}
+  m_PrefabInstance: {fileID: 4482969260457700540}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7229214613565051068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2709512580278764544, guid: 10c7bf9639e386f4485cfe0a68c4a218,
     type: 3}
   m_PrefabInstance: {fileID: 4482969260457700540}
   m_PrefabAsset: {fileID: 0}
