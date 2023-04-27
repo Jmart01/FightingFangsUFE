@@ -74,6 +74,11 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 		}
     }
 
+	public void QuitBtnClicked()
+	{
+		Application.Quit();
+	}
+
     public override void OnShow (){
 		base.OnShow ();
 		this.HighlightOption(this.FindFirstSelectable());

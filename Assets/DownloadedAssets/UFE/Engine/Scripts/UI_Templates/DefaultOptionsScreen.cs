@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using UFE3D;
 
+
 public class DefaultOptionsScreen : OptionsScreen{
 	#region public instance properties
 	public AudioClip selectSound;
@@ -25,7 +26,10 @@ public class DefaultOptionsScreen : OptionsScreen{
 	public bool stopPreviousSoundEffectsOnLoad = false;
 	public float delayBeforePlayingMusic = 0.1f;
 	#endregion
-	
+	[Header("My stuff")]
+    [SerializeField] GameObject MoveLstImg;
+	[SerializeField] GameObject MoveLstBtn;
+
 	#region protected instance properties
 	// This property is used for preventing the Unity GUI from updating 
 	// the values of certain variables when the screen isn't visible
@@ -266,10 +270,32 @@ public class DefaultOptionsScreen : OptionsScreen{
 			}
 		}
 	}
-	#endregion
-	
-	#region protected instance methods
-	protected virtual void CancelAction(){
+
+    public override void GoToMainMenuScreen()
+    {
+		if(MoveLstImg.activeInHierarchy)
+		{
+			MoveLstImg.SetActive(false);
+			MoveLstBtn.SetActive(true);
+		}
+		else
+		{
+            base.GoToMainMenuScreen();
+        }
+    }
+
+	public void TurnOnImage()
+	{
+		if(MoveLstImg.activeInHierarchy == false)
+		{
+			MoveLstImg.SetActive(true);
+			MoveLstBtn.SetActive(false);
+		}
+	}
+    #endregion
+
+    #region protected instance methods
+    protected virtual void CancelAction(){
 		if (this.cancelButton != null && this.cancelButton.onClick != null){
 			this.cancelButton.onClick.Invoke();
 		}
