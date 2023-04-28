@@ -37,6 +37,11 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 		vid.SetamtToPlay();
     }
 
+	private void GoToCredits()
+	{
+		UFE.StartCreditsScreen();
+	}
+
     #region public override methods
     public override void DoFixedUpdate(
 		IDictionary<InputReferences, InputEvents> player1PreviousInputs,
