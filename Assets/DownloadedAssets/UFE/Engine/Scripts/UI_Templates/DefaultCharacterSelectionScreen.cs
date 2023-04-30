@@ -34,11 +34,6 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 
 	public int defaultCharacterPlayer1 = 0;
 	public int defaultCharacterPlayer2 = 999;
-
-    [Header("Volume")]
-    [SerializeField] float MusicVolume;
-    [SerializeField] float VoiceVolume;
-
     #endregion
 
     #region protected instance fields
@@ -48,16 +43,6 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 	protected GameObject gameObjectPlayer1;
 	protected GameObject gameObjectPlayer2;
 	#endregion
-
-	
-
-
-    private void Start()
-    {
-		UFE.SetSoundFXVolume(VoiceVolume);
-		UFE.SetMusicVolume(MusicVolume);
-    }
-
 
     #region public override methods
     public override void DoFixedUpdate(
