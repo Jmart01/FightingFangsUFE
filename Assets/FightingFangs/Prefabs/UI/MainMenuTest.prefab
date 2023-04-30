@@ -82,7 +82,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509870779661396660}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 0205bd61f214efb4cbe6e4b490f88a08, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 676c31e6e9767a144b3032e2b871cdf8, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1549,6 +1549,7 @@ GameObject:
   - component: {fileID: 172873469871744685}
   - component: {fileID: 3070069433838498543}
   - component: {fileID: 9091994760385437310}
+  - component: {fileID: 8947459899498641551}
   m_Layer: 5
   m_Name: MainMenuTest
   m_TagString: Untagged
@@ -1667,6 +1668,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8947459899498641551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6450485875668669885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a0edcc06d1bd4346b1d70f338a9899a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VoiceVolume: 30
+  MusicVolume: 30
 --- !u!1 &6800382979312001402
 GameObject:
   m_ObjectHideFlags: 0

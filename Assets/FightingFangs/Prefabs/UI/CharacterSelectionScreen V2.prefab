@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 22400000}
   - component: {fileID: 22200000}
   - component: {fileID: 11400026}
+  - component: {fileID: 6509936457464886271}
   m_Layer: 5
   m_Name: CharacterSelectionScreen V2
   m_TagString: Untagged
@@ -75,7 +76,7 @@ MonoBehaviour:
   selectSound: {fileID: 0}
   cancelSound: {fileID: 0}
   moveCursorSound: {fileID: 0}
-  onLoadSound: {fileID: 0}
+  onLoadSound: {fileID: 8300000, guid: 0424313a0dbec474482085d09fc5f321, type: 3}
   music: {fileID: 8300000, guid: 27ce2cdba0e3e134eb7b970dce0d5a06, type: 3}
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
@@ -98,6 +99,22 @@ MonoBehaviour:
   noCharacterSprite: {fileID: 21300000, guid: 49a6f61837fd54bf9956a2cb6aff27fa, type: 3}
   defaultCharacterPlayer1: 0
   defaultCharacterPlayer2: 999
+  MusicVolume: 0
+  VoiceVolume: 0
+--- !u!114 &6509936457464886271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a0edcc06d1bd4346b1d70f338a9899a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VoiceVolume: 15
+  MusicVolume: 2
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0

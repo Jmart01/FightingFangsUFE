@@ -34,18 +34,33 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 
 	public int defaultCharacterPlayer1 = 0;
 	public int defaultCharacterPlayer2 = 999;
-	#endregion
 
-	#region protected instance fields
-	protected List<Selectable> characterButtonsWhiteList = new List<Selectable>();
+    [Header("Volume")]
+    [SerializeField] float MusicVolume;
+    [SerializeField] float VoiceVolume;
+
+    #endregion
+
+    #region protected instance fields
+    protected List<Selectable> characterButtonsWhiteList = new List<Selectable>();
 
 	protected GameObject background;
 	protected GameObject gameObjectPlayer1;
 	protected GameObject gameObjectPlayer2;
 	#endregion
 
-	#region public override methods
-	public override void DoFixedUpdate(
+	
+
+
+    private void Start()
+    {
+		UFE.SetSoundFXVolume(VoiceVolume);
+		UFE.SetMusicVolume(MusicVolume);
+    }
+
+
+    #region public override methods
+    public override void DoFixedUpdate(
 		IDictionary<InputReferences, InputEvents> player1PreviousInputs,
 		IDictionary<InputReferences, InputEvents> player1CurrentInputs,
 		IDictionary<InputReferences, InputEvents> player2PreviousInputs,
