@@ -481,7 +481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Antonio Moreno (voice actor)
+  m_Text: Antonio Moreno
 --- !u!1 &1033100627848268992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,7 +1125,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jack "The Father of Echo" Alexander
+  m_Text: Jack Alexander
 --- !u!1 &4769779006749638545
 GameObject:
   m_ObjectHideFlags: 0

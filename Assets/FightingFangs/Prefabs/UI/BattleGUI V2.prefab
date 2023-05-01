@@ -79,20 +79,20 @@ MonoBehaviour:
   muteAnnouncer: 0
   announcer:
     announcerName: 
-    round1: {fileID: 8300000, guid: 6f31d4c686b6e0c40a8b1c88a4549aea, type: 3}
-    round2: {fileID: 8300000, guid: 2bd59e92e50e2614c9d48c94ec6db9b1, type: 3}
-    round3: {fileID: 8300000, guid: 02aa4a5f334325140aec7002ced5c8bd, type: 3}
-    otherRounds: {fileID: 8300000, guid: 02aa4a5f334325140aec7002ced5c8bd, type: 3}
-    finalRound: {fileID: 8300000, guid: 02aa4a5f334325140aec7002ced5c8bd, type: 3}
-    fight: {fileID: 8300000, guid: e5e3023abb7824c468c8951237a52b9c, type: 3}
-    player1Wins: {fileID: 8300000, guid: 2e41d1c94d5fa4c4b88a6149281b17c2, type: 3}
-    player2Wins: {fileID: 8300000, guid: 90d20ce93e6750846b2cf0b2f77a31cd, type: 3}
+    round1: {fileID: 8300000, guid: aca53c5b7bae46b4c850c0ee1e405de7, type: 3}
+    round2: {fileID: 8300000, guid: 9b66aee69a833ae4ead239ecb4d26d4c, type: 3}
+    round3: {fileID: 8300000, guid: 2dc14fdcb34c61a41bdffe45c6b51796, type: 3}
+    otherRounds: {fileID: 8300000, guid: 2dc14fdcb34c61a41bdffe45c6b51796, type: 3}
+    finalRound: {fileID: 8300000, guid: 2dc14fdcb34c61a41bdffe45c6b51796, type: 3}
+    fight: {fileID: 8300000, guid: 847f827096ddd8844bf4f51bf944e2b5, type: 3}
+    player1Wins: {fileID: 8300000, guid: a0abb693851b0374b96f1a4180401a09, type: 3}
+    player2Wins: {fileID: 8300000, guid: f7fe8854ad9c6904484734a7f7414302, type: 3}
     perfect: {fileID: 0}
     firstHit: {fileID: 0}
     counterHit: {fileID: 0}
     parry: {fileID: 0}
     timeOver: {fileID: 0}
-    ko: {fileID: 8300000, guid: 75d15b077624cbe47a9ffbda41c07ca6, type: 3}
+    ko: {fileID: 8300000, guid: 57a5383d0584df84fbc637c69d433b83, type: 3}
     combos: []
   wonRounds:
     NotFinishedRounds: {fileID: 21300000, guid: fea6655457845c040a9fdd2074fae25f,
